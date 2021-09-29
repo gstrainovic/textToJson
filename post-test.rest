@@ -1,0 +1,39 @@
+POST http://localhost:7071/api/textTojson HTTP/1.1
+Content-Type: text/plain
+
+MULTI®NLINE  
+GmbH  
+Shirtoo.de  
+Heinrich-Dreyer-Str . 1  
+27798 Hude  
+Tel.: 0441 23369762  
+- 
+E-Mail: info@Shirtoo.de  
+Multionline GmbH Heinrich-Drever-Str . 1 27798 Hude Ust.-Nr.: DE269590949  
+- - 
+Company Name  
+Empfänger  
+Große Allee 53  
+20459 Hamburg  
+Datum:  20.04.2021  
+Rechnungs-Nr.:  20210844  
+Kunden-Nr.:  448765
+Rechnung 
+ 
+zu Ihrer Bestellung 22487 bei Shirtoo.de  
+Pos . Anz . Einheit  Artikelnr . Bezeichnung  Einzelpreis Gesamtpreis  
+;    
+1  1  Stück  Ringspun Premium T  3,22 €  3,22 €  
+2  1  Stück  61420094S  Original T Lady-Fit  2,14 €  2,14 €  
+3  1  Stück  61420038S  Original T Lady-Fit  2,14 €  2,14 €  
+4  1  Stück  61424094S  Lady Ringspun Premium T  2,80 €  2,80 €  
+5  1  Stück  61082094M  Original T  1,99 €  1,99 €  
+6  1  Stück  Versandkosten  4,50 €  4,50 €  
+Zwischensumme  16,79 €  
++ 9% Mwst . 3,19 €  
+ 
+Bruttobetrag  19,99 €  
+Sofern nicht anders angegeben , entspricht das Liefer- / Leistungsdatum dem Rechnungsdatum . 
+ 
+Betrag dankend per Kreditkarte erhalten . 
+ 
