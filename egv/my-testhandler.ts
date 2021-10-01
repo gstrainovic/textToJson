@@ -1,9 +1,7 @@
 import { InvoiceDescriptor } from "./invoicedescriptor";
 import { Util } from "./util";
 import { Invoice } from "./invoice";
-// import { InvoiceHandler } from "./invoicehandler";
-
-
+// import { InvoiceHandler } from "../invoicehandler";
 
 
 enum Mode { Simple, PerDelivery }
@@ -50,6 +48,7 @@ export class EgvInvoiceHandler { //implements InvoiceHandler {
                 const dateRaw = comps[comps.length - 2]
                 console.log("dateRaw" + dateRaw + " " + Util.parseGermanDate(dateRaw))
                 // invoiceDescriptor.documentDate = Util.formatDate(Util.parseGermanDate(dateRaw)?.getTime())
+                // invoiceDescriptor.documentDate = Util.parseGermanDate(dateRaw)
                 invoiceDescriptor.deliveryDateFrom = invoiceDescriptor.documentDate
                 invoiceDescriptor.deliveryDateTo = invoiceDescriptor.documentDate
                 invoiceDescriptor.text = "Rechnung " + invoiceDescriptor.documentNumber
@@ -63,14 +62,15 @@ export class EgvInvoiceHandler { //implements InvoiceHandler {
                     //log.debug("dn:" + currentDeliveryNumber + ", dd: " + currentDeliveryDate)
                 }
             } else if (curr.indexOf("Summen Lfsch: ") != -1) {
-                const comps = curr.trim().split(/\s+/)
+                const comps = curr.replace(/ /g, '').replace(/;/g, '').split('NETTO')
                 //log.debug("comps: ls: " + curr)
                 let buf = ""
                 comps.forEach((s, index) => buf += `[${index}]=${s}`)
                 //log.debug(buf)
                 if (mode == Mode.PerDelivery) {
-                    const amount7 = Util.parseGermanNumber(comps[4])
-                    const amount19 = Util.parseGermanNumber(comps[7])
+                    const amount7 = Util.parseGermanNumber(comps[2])
+                    const amount19x = comps[3].split('=')[0]
+                    const amount19 = Util.parseGermanNumber(amount19x)
                     if (amount7) {
                         invoiceDescriptor.positions.push({
                             account: "3300",
