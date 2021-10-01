@@ -10,6 +10,17 @@ export class Util {
         return;
     }
 
+    static formatDate(val: Date) {
+        let ddn = val.getDate();
+        let mmn = val.getMonth() + 1;
+        let yyyy = val.getFullYear();
+
+        const dd = (ddn < 10) ? (0 + ddn.toString()) : ddn.toString();
+        const mm = (mmn < 10) ? (0 + mmn.toString()) : ddn.toString();
+        
+        return dd + '.' + mm + '.' + yyyy;
+    }
+
     static parseGermanNumber(number: string): number {
         return parseFloat(number.replace(/[.]/g, "").replace(/,/g, "."))
     }

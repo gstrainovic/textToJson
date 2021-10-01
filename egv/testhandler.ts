@@ -75,8 +75,7 @@ export class EgvInvoiceHandler { //implements InvoiceHandler {
                         invoiceDescriptor.positions.push({
                             account: "3300",
                             amount: amount7.toFixed(2),
-                            // text: "Lieferschein " + currentDeliveryNumber + " vom " + Util.formatDate(currentDeliveryDate?.getTime()) + " 7%",
-                            text: "Lieferschein " + currentDeliveryNumber + " vom " + (currentDeliveryDate?.getTime()) + " 7%",
+                            text: "Lieferschein " + currentDeliveryNumber + " vom " + Util.formatDate(currentDeliveryDate) + " 7%",
                             vatKey: "V7",
                         })
                     }
@@ -84,8 +83,7 @@ export class EgvInvoiceHandler { //implements InvoiceHandler {
                         invoiceDescriptor.positions.push({
                             account: "3400",
                             amount: amount19.toFixed(2),
-                            // text: "Lieferschein " + currentDeliveryNumber + " vom " + Util.formatDate(currentDeliveryDate?.getTime()) + " 19%",
-                            text: "Lieferschein " + currentDeliveryNumber + " vom " + (currentDeliveryDate?.getTime()) + " 19%",
+                            text: "Lieferschein " + currentDeliveryNumber + " vom " + Util.formatDate(currentDeliveryDate) + " 19%",
                             vatKey: "V19",
                         })
                     }
