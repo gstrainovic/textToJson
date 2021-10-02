@@ -10,7 +10,6 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "azure-functions-core-tools": "^3.0.3785",
     "http-status-enum": "^1.0.2",
     "parse-multipart": "^1.0.4",
     "textmeta": "0.0.12"
