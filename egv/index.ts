@@ -65,11 +65,12 @@ const httpTrigger: AzureFunction = async function (
       default: "n/a",
     },
     {
-      key: "Nettos",
-      type: "AllUnique",
-      startKeyword: "Summen Lfsch:",
-      endKeyword: "=",
+      key: "Lieferschein",
+      type: "All",
+      startKeyword: "Lieferschein",
+      endKeyword: "Summen",
       expression: "\\S\\s+([^\\n]+)",
+      // expression: "",
       default: "n/a",
       options: {
         flags: "gi",
