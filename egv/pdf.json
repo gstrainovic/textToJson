@@ -1,0 +1,157 @@
+{
+    "verify": true,
+    "net": true,
+    "documentDate": "11.11.2020",
+    "documentNumber": "666856",
+    "text": "Rechnung 666856 für Lieferschein(e): 774080, 776412, 779134, 784501, 784502, 784883, 784885, 787131, 789514, 790729, 790874, 790875, 791003, 794384, 794455, 796180, 796181, 796796, 799167, 800009",
+    "deliveryDateFrom": "11.11.2020",
+    "deliveryDateTo": "11.11.2020",
+    "workflow": "EGV-Prozess",
+    "kreditorAccount": "70001",
+    "positions": [
+        {
+            "account": "3300",
+            "amount": "188.64",
+            "text": "Lieferschein 774080 vom 09.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "119.55",
+            "text": "Lieferschein 776412 vom 02.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "47.20",
+            "text": "Lieferschein 776412 vom 02.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "371.72",
+            "text": "Lieferschein 779134 vom 09.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "87.14",
+            "text": "Lieferschein 784501 vom 23.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "585.19",
+            "text": "Lieferschein 784502 vom 11.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "25.32",
+            "text": "Lieferschein 784883 vom 11.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "30.10",
+            "text": "Lieferschein 784885 vom 16.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "159.64",
+            "text": "Lieferschein 784885 vom 16.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "449.17",
+            "text": "Lieferschein 787131 vom 16.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "-33.90",
+            "text": "Lieferschein 789514 vom 16.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "427.05",
+            "text": "Lieferschein 790729 vom 18.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "185.36",
+            "text": "Lieferschein 790874 vom 25.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "13.69",
+            "text": "Lieferschein 790875 vom 18.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "25.09",
+            "text": "Lieferschein 791003 vom 18.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "437.85",
+            "text": "Lieferschein 794384 vom 23.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "7.75",
+            "text": "Lieferschein 794455 vom 25.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "-6.89",
+            "text": "Lieferschein 796180 vom 23.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "-24.66",
+            "text": "Lieferschein 796181 vom 23.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "122.54",
+            "text": "Lieferschein 796796 vom 25.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "18.62",
+            "text": "Lieferschein 796796 vom 25.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "352.98",
+            "text": "Lieferschein 799167 vom 27.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "105.68",
+            "text": "Lieferschein 800009 vom 30.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "2.28",
+            "text": "Lieferschein 800009 vom 30.08.2021 19%",
+            "vatKey": "V19"
+        }
+    ]
+}

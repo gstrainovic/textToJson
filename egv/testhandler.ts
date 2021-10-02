@@ -3,9 +3,6 @@ import { Util } from "./util";
 import { Invoice } from "./invoice";
 // import { InvoiceHandler } from "./invoicehandler";
 
-
-
-
 enum Mode { Simple, PerDelivery }
 
 let mode: Mode

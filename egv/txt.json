@@ -1,0 +1,133 @@
+{
+    "verify": true,
+    "net": true,
+    "documentDate": "11.11.2020",
+    "documentNumber": "",
+    "text": "Rechnung  für Lieferschein(e): ",
+    "deliveryDateFrom": "01.01.2000",
+    "deliveryDateTo": "01.01.2000",
+    "workflow": "EGV-Prozess",
+    "kreditorAccount": "70001",
+    "positions": [
+        {
+            "account": "3300",
+            "amount": "119.00",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "371.00",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "14.00",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "2.00",
+            "text": "Lieferschein  vom  19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "585.00",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "30.10",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "159.00",
+            "text": "Lieferschein  vom  19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "449.00",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "427.05",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "185.36",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "13.69",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "25.09",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "85.00",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "7.75",
+            "text": "Lieferschein  vom  19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "66.00",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "122.54",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "18.00",
+            "text": "Lieferschein  vom  19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "352.00",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "105.68",
+            "text": "Lieferschein  vom  7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "2.28",
+            "text": "Lieferschein  vom  19%",
+            "vatKey": "V19"
+        }
+    ]
+}

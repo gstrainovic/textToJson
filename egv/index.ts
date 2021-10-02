@@ -4,18 +4,6 @@ import * as multipart from "parse-multipart";
 import { Invoice } from "./invoice";
 import { EgvInvoiceHandler } from "./testhandler";
 
-/*
-Task: accept file, as multipart form request, send file (100MB max on Consumption plan) to Azure Storage.
-
-Run the curl command in the same directory as the file:
-
-curl -X POST  -F 'filename=@test-file.txt' 'http://localhost:7071/api/upload?filename=test-file.txt&username=jsmith' --verbose
-
-This curl command uses both the querystring and the multi-part form to pass relevant data to and through
-this Azure Function. The querystring property value for `username` becomes the directory name inside the container. 
-The querystring property value for `filename` becomes the file name used in the container. Both these 
-querystring values are used in the `function.json` to construct the container location: `"path": "images/{username}/{filename}",`.
-*/
 const httpTrigger: AzureFunction = async function (
   context: Context,
   req: HttpRequest
@@ -41,16 +29,6 @@ const httpTrigger: AzureFunction = async function (
     `*** Username:${req.query?.username}, Filename:${req.query?.filename}, Length:${req.body.length}`
   );
 
-  if (
-    process?.env?.Environment === "Production" &&
-    (!process?.env?.AzureWebJobsStorage ||
-      process?.env?.AzureWebJobsStorage.length < 10)
-  ) {
-    throw Error(
-      "Storage isn't configured correctly - get Storage Connection string from Azure portal"
-    );
-  }
-
   // Each chunk of the file is delimited by a special string
   const bodyBuffer = Buffer.from(req.body);
   const boundary = multipart.getBoundary(req.headers["content-type"]);
@@ -61,19 +39,22 @@ const httpTrigger: AzureFunction = async function (
     context.res.body = `File buffer is incorrect`;
     context.res.status = HTTP_CODES.BAD_REQUEST;
   }
-  if (parts[0]?.filename)
+
+  var text = ""
+
+  if (parts[0]?.filename) {
     console.log(`Original filename = ${parts[0]?.filename}`);
+    if (parts[0]?.filename.toLowerCase().endsWith('.txt')) {
+      const fs = require('fs');
+      var text = parts[0]?.data.toString('utf8');
+    } else {
+      var document = parts[0]?.data;
+    }
+  }
   if (parts[0]?.type) console.log(`Content type = ${parts[0]?.type}`);
   if (parts[0]?.data?.length) console.log(`Size = ${parts[0]?.data?.length}`);
 
-  // Passed to Storage
-  let document = parts[0]?.data;
-
   const invoice = new Invoice();
-  //     const input = req.body;
-
-  //     const pdfFilePath = './egv/666856.pdf'
-  //     const sample = './egv/sample_doc.pdf'
 
   var textmeta = require("textmeta");
 
@@ -109,8 +90,12 @@ const httpTrigger: AzureFunction = async function (
     },
   ];
 
-  const result = await textmeta.extractFromPDFBuffer(document, rules);
-  invoice.pdftext = result.text;
+  if (text === "") {
+    const result = await textmeta.extractFromPDFBuffer(document, rules);
+    invoice.pdftext = result.text;
+  } else {
+    invoice.pdftext = text.toString();
+  }
 
   const egv = new EgvInvoiceHandler();
   const res = egv.processInvoice(invoice);
