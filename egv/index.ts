@@ -10,24 +10,11 @@ const httpTrigger: AzureFunction = async function (
 ): Promise<any> {
   context.log("upload HTTP trigger function processed a request.");
 
-  if (!req.query?.username) {
-    context.res.body = `username is not defined`;
-    context.res.status = HTTP_CODES.BAD_REQUEST;
-  }
-
-  if (!req.query?.filename) {
-    context.res.body = `filename is not defined`;
-    context.res.status = HTTP_CODES.BAD_REQUEST;
-  }
-
   if (!req.body || !req.body.length) {
     context.res.body = `Request body is not defined`;
     context.res.status = HTTP_CODES.BAD_REQUEST;
   }
 
-  console.log(
-    `*** Username:${req.query?.username}, Filename:${req.query?.filename}, Length:${req.body.length}`
-  );
 
   // Each chunk of the file is delimited by a special string
   const bodyBuffer = Buffer.from(req.body);
@@ -102,7 +89,7 @@ const httpTrigger: AzureFunction = async function (
   const responseMessage = JSON.stringify(res);
   context.res = {
     // status: 200, /* Defaults to 200 */
-    body: responseMessage,
+    body: responseMessage
   };
 };
 

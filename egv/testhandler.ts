@@ -32,7 +32,8 @@ export class EgvInvoiceHandler { //implements InvoiceHandler {
             workflow: "EGV-Prozess",
             kreditorAccount: "70001",
             positions: [
-            ]
+            ],
+            raw: invoice.pdftext
         }
 
         const lines = invoice.pdftext.split("\n")

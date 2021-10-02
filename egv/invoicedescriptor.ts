@@ -19,6 +19,7 @@ export interface InvoiceDescriptor {
     kreditorAccount?: string           // optional kreiitor account number
     taxCountryCodeIso2?: string        // optional country iso2-code (DE, IT, etc) for the tax base
     positions: InvoiceDescriptorPosition[]
+    raw: string                        // input string from OCR.txt or PDF
 }
 
 export interface InvoiceDescriptorPosition {
