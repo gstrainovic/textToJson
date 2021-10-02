@@ -32,7 +32,6 @@ const httpTrigger: AzureFunction = async function (
   if (parts[0]?.filename) {
     console.log(`Original filename = ${parts[0]?.filename}`);
     if (parts[0]?.filename.toLowerCase().endsWith('.txt')) {
-      const fs = require('fs');
       var text = parts[0]?.data.toString('utf8');
     } else {
       var document = parts[0]?.data;
@@ -42,6 +41,7 @@ const httpTrigger: AzureFunction = async function (
   if (parts[0]?.data?.length) console.log(`Size = ${parts[0]?.data?.length}`);
 
   const invoice = new Invoice();
+
 
   var textmeta = require("textmeta");
 
