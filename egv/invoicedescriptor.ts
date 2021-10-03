@@ -17,9 +17,21 @@ export interface InvoiceDescriptor {
     workflow?: string                  // optional workflow name
     zone?: string                      // optional zone/rechnungskreis number
     kreditorAccount?: string           // optional kreiitor account number
-    taxCountryCodeIso2?: string        // optional country iso2-code (DE, IT, etc) for the tax base
+    taxCountrCodeIso2?: string        // optional country iso2-code (DE, IT, etc) for the tax base
     positions: InvoiceDescriptorPosition[]
+    articles: ArticlePosition[]
     raw: string                        // input string from OCR.txt or PDF
+}
+
+export interface ArticlePosition {
+    artNr: string
+    artikelb: string
+    colli: string
+    einh: string
+    berMg: string
+    ePreis: string
+    netto: string
+    m: string
 }
 
 export interface InvoiceDescriptorPosition {

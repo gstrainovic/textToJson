@@ -4,5 +4,6 @@
 .vscode
 local.settings.json
 test
-tsconfig.json
+node_modules-remote/
 node_modules-local/
+tsconfig.json

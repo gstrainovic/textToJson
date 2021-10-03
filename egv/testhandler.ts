@@ -1,4 +1,4 @@
-import { InvoiceDescriptor } from "./invoicedescriptor";
+import { InvoiceDescriptor, ArticlePosition } from "./invoicedescriptor";
 import { Util } from "./util";
 import { Invoice } from "./invoice";
 // import { InvoiceHandler } from "./invoicehandler";
@@ -12,7 +12,7 @@ mode = Mode.PerDelivery
 /*  
  */
 export class EgvInvoiceHandler { //implements InvoiceHandler {
-    signalInterest(invoice: Invoice) {
+    signalInterest(invoice: Invoice): boolean {
         return !!invoice.pdftext && invoice.pdftext.indexOf("lautet DE12ZZZ00000373688") != -1
     }
 
@@ -33,10 +33,45 @@ export class EgvInvoiceHandler { //implements InvoiceHandler {
             kreditorAccount: "70001",
             positions: [
             ],
+            articles: [],
             raw: invoice.pdftext
         }
 
         const lines = invoice.pdftext.split("\n")
+        const linesTrimed = lines.map(x => x.trim())
+        const articleLines =
+            linesTrimed
+                .filter(x => Util.isStringArticleNumber(x.split(' ')[0]))
+                .filter(x => x.includes('53501 GRAFSCHAFT') === false)
+/*        
+ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M
+43049 TUFFI NATURJOGHURT 1,5% 5KG EIM     2   5,000  10,000  0,9800     9,80 1
+03976 KISTE EUROPOOL HIN                          1       1  3,8600     3,86 2
+*/
+
+        function getOthers(s: string) {
+            console.log(s)
+            const sub = s.substring(43)
+            const tr = sub.trim()
+            const sp = tr.split(' ')
+            const fi = sp.filter(x => x !== "")
+            const ma = fi.map(x=>x.trim())
+            return ma
+        }
+
+        articleLines.forEach(x =>
+            invoiceDescriptor.articles.push({
+                artNr: x.substring(0, 5).trim(),
+                artikelb: x.substring(6, 38).trim(),
+                colli: x.substring(38, 43).trim(),
+                einh: getOthers(x)[0],
+                berMg: getOthers(x)[1],
+                ePreis: getOthers(x)[2],
+                netto: getOthers(x)[3],
+                m: getOthers(x)[4],
+            })
+        )
+
         let currentDeliveryNumber = ""
         let currentDeliveryDate: Date | undefined
         for (let i = 0, n = lines.length; i < n - 1; i++) {
