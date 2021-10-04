@@ -1,1 +1,1 @@
-curl -X POST  -F 'filename=@666856.txt' 'https://gstrainovic.azurewebsites.net/api/egv' --verbose
+curl -X POST  -F 'filename=@666856.txt' 'https://svisio-dev.azurewebsites.net/api/egv' --verbose
