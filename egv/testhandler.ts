@@ -50,7 +50,7 @@ ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR 
 */
 
         function getOthers(s: string) {
-            console.log(s)
+            //console.log(s)
             const sub = s.substring(43)
             const tr = sub.trim()
             const sp = tr.split(' ')

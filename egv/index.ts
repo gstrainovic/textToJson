@@ -5,6 +5,8 @@ import { Invoice } from "./invoice";
 import { EgvInvoiceHandler } from "./testhandler";
 import * as AdmZip from "adm-zip";
 import * as textmeta from "textmeta";
+import * as path from 'path';
+import * as fs from 'fs'
 
 const httpTrigger: AzureFunction = async function (
   context: Context,
@@ -72,23 +74,34 @@ const httpTrigger: AzureFunction = async function (
   ];
 
   const zip = new AdmZip(buffer);
-  const spath = "./egv/"
+  const spath = "./egv/unzip/"
   zip.extractAllTo(/*target path*/ spath, /*overwrite*/ true);
-  zip.writeZip(spath+'new.zip')
-
+  zip.writeZip('./egv/new.zip')
   var document
 
-  zip.getEntries().forEach(function (entry) {
-    if (entry.entryName.toLowerCase().endsWith('.pdf')) {
-      document = zip.readFile(entry)
+  var files = fs.readdirSync(spath);
+
+  for (var i in files) {
+    if (path.extname(files[i]) === ".pdf") {
+      const fp = spath + files[i]
+      document = fs.readFileSync(fp)
     }
-  })
+  }
+
+  // zip.getEntries().forEach(function (entry) {
+  //   if (entry.entryName.toLowerCase().endsWith('.pdf')) {
+  //     const test = 123;
+  //     document = zip.readFile(entry)
+  //   }
+  // })
 
   const result = await textmeta.extractFromPDFBuffer(document, rules);
   invoice.pdftext = result.text;
   const egv = new EgvInvoiceHandler();
   const res = egv.processInvoice(invoice);
   const responseMessage = JSON.stringify(res);
+
+  fs.rmdirSync(spath, { recursive: true })
 
   context.res = {
     // status: 200, /* Defaults to 200 */
