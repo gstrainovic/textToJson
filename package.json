@@ -10,6 +10,9 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
+    "@zip.js/zip.js": "^2.3.17",
+    "adm-zip": "^0.5.7",
+    "azure-functions-core-tools": "^3.0.3785",
     "http-status-enum": "^1.0.2",
     "parse-multipart": "^1.0.4",
     "textmeta": "0.0.12"
