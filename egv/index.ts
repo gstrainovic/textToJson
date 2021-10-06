@@ -3,11 +3,8 @@ import HTTP_CODES from "http-status-enum";
 import * as multipart from "parse-multipart";
 import { Invoice } from "./invoice";
 import { EgvInvoiceHandler } from "./testhandler";
-import * as fs from 'fs';
-import * as path from 'path'
-import { spawn } from "child_process";
-import { ERR_INVALID_ENTRY_NAME } from "@zip.js/zip.js";
-//import * as AdmZip from "adm-zip";
+import * as AdmZip from "adm-zip";
+import * as textmeta from "textmeta";
 
 const httpTrigger: AzureFunction = async function (
   context: Context,
@@ -32,23 +29,14 @@ const httpTrigger: AzureFunction = async function (
     context.res.status = HTTP_CODES.BAD_REQUEST;
   }
 
-  // var text = ""
-
   if (parts[0]?.filename) {
     console.log(`Original filename = ${parts[0]?.filename}`);
-    // if (parts[0]?.filename.toLowerCase().endsWith('.txt')) {
-    //   var text = parts[0]?.data.toString('utf8');
-    // } else {
-
-    // }
   }
   if (parts[0]?.type) console.log(`Content type = ${parts[0]?.type}`);
   if (parts[0]?.data?.length) console.log(`Size = ${parts[0]?.data?.length}`);
 
   const buffer = parts[0]?.data;
   const invoice = new Invoice();
-
-  var textmeta = require("textmeta");
 
   var rules = [
     {
@@ -83,7 +71,6 @@ const httpTrigger: AzureFunction = async function (
     },
   ];
 
-  const AdmZip = require("adm-zip");
   const zip = new AdmZip(buffer);
   const spath = "./egv/"
   zip.extractAllTo(/*target path*/ spath, /*overwrite*/ true);

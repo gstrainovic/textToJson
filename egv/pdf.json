@@ -1,0 +1,2290 @@
+{
+    "verify": true,
+    "net": true,
+    "documentDate": "11.11.2020",
+    "documentNumber": "666856",
+    "text": "Rechnung 666856 für Lieferschein(e): 774080, 776412, 779134, 784501, 784502, 784883, 784885, 787131, 789514, 790729, 790874, 790875, 791003, 794384, 794455, 796180, 796181, 796796, 799167, 800009",
+    "deliveryDateFrom": "11.11.2020",
+    "deliveryDateTo": "11.11.2020",
+    "workflow": "EGV-Prozess",
+    "kreditorAccount": "70001",
+    "positions": [
+        {
+            "account": "3300",
+            "amount": "188.64",
+            "text": "Lieferschein 774080 vom 09.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "119.55",
+            "text": "Lieferschein 776412 vom 02.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "47.20",
+            "text": "Lieferschein 776412 vom 02.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "371.72",
+            "text": "Lieferschein 779134 vom 09.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "87.14",
+            "text": "Lieferschein 784501 vom 23.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "585.19",
+            "text": "Lieferschein 784502 vom 11.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "25.32",
+            "text": "Lieferschein 784883 vom 11.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "30.10",
+            "text": "Lieferschein 784885 vom 16.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "159.64",
+            "text": "Lieferschein 784885 vom 16.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "449.17",
+            "text": "Lieferschein 787131 vom 16.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "-33.90",
+            "text": "Lieferschein 789514 vom 16.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "427.05",
+            "text": "Lieferschein 790729 vom 18.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "185.36",
+            "text": "Lieferschein 790874 vom 25.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "13.69",
+            "text": "Lieferschein 790875 vom 18.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "25.09",
+            "text": "Lieferschein 791003 vom 18.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "437.85",
+            "text": "Lieferschein 794384 vom 23.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "7.75",
+            "text": "Lieferschein 794455 vom 25.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "-6.89",
+            "text": "Lieferschein 796180 vom 23.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "-24.66",
+            "text": "Lieferschein 796181 vom 23.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "122.54",
+            "text": "Lieferschein 796796 vom 25.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "18.62",
+            "text": "Lieferschein 796796 vom 25.08.2021 19%",
+            "vatKey": "V19"
+        },
+        {
+            "account": "3300",
+            "amount": "352.98",
+            "text": "Lieferschein 799167 vom 27.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3300",
+            "amount": "105.68",
+            "text": "Lieferschein 800009 vom 30.08.2021 7%",
+            "vatKey": "V7"
+        },
+        {
+            "account": "3400",
+            "amount": "2.28",
+            "text": "Lieferschein 800009 vom 30.08.2021 19%",
+            "vatKey": "V19"
+        }
+    ],
+    "articles": [
+        {
+            "artNr": "49662",
+            "artikelb": "MEERSALZ GROB MÜHLE 6X50G",
+            "colli": "6",
+            "einh": "1",
+            "berMg": "6",
+            "ePreis": "16,2900",
+            "netto": "97,74",
+            "m": "1"
+        },
+        {
+            "artNr": "49664",
+            "artikelb": "BUNTER PFEFFER MÜHLE 6X50G",
+            "colli": "6",
+            "einh": "1",
+            "berMg": "6",
+            "ePreis": "15,1500",
+            "netto": "90,90",
+            "m": "1"
+        },
+        {
+            "artNr": "03976",
+            "artikelb": "KISTE EUROPOOL HIN",
+            "colli": "",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "3,8600",
+            "netto": "3,86",
+            "m": "2"
+        },
+        {
+            "artNr": "03976",
+            "artikelb": "KISTE EUROPOOL ZURUECK",
+            "colli": "",
+            "einh": "1",
+            "berMg": "-1",
+            "ePreis": "3,8600",
+            "netto": "-3,86",
+            "m": "2"
+        },
+        {
+            "artNr": "03982",
+            "artikelb": "KISTE E2 SATTE HIN",
+            "colli": "",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "4,0000",
+            "netto": "4,00",
+            "m": "2"
+        },
+        {
+            "artNr": "03982",
+            "artikelb": "KISTE E2 SATTE ZURUECK",
+            "colli": "",
+            "einh": "1",
+            "berMg": "-1",
+            "ePreis": "4,0000",
+            "netto": "-4,00",
+            "m": "2"
+        },
+        {
+            "artNr": "07036",
+            "artikelb": "KRÄUTERKÄSE SCHEIB.20G GEF.35%1",
+            "colli": "1",
+            "einh": "1,000",
+            "berMg": "1,000",
+            "ePreis": "8,6900",
+            "netto": "8,69",
+            "m": "1"
+        },
+        {
+            "artNr": "19075",
+            "artikelb": "WG ORANGENSAFT 100% 1L PKG",
+            "colli": "3",
+            "einh": "8",
+            "berMg": "24",
+            "ePreis": "0,8300",
+            "netto": "19,92",
+            "m": "2"
+        },
+        {
+            "artNr": "19213",
+            "artikelb": "WG MULTIVITAMINSAFT 1L PET",
+            "colli": "1",
+            "einh": "6",
+            "berMg": "6",
+            "ePreis": "0,9120",
+            "netto": "5,47",
+            "m": "2"
+        },
+        {
+            "artNr": "26065",
+            "artikelb": "KIWI 10ER SCHALE",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "4,4000",
+            "netto": "4,40",
+            "m": "1"
+        },
+        {
+            "artNr": "26071",
+            "artikelb": "TRAUBEN BLAU KERNLOS 4,5KG",
+            "colli": "",
+            "einh": "4,500",
+            "berMg": "1,000",
+            "ePreis": "4,2800",
+            "netto": "4,28",
+            "m": "1"
+        },
+        {
+            "artNr": "26072",
+            "artikelb": "TRAUBEN HELL KERNLOS 4,5KG",
+            "colli": "",
+            "einh": "4,500",
+            "berMg": "1,000",
+            "ePreis": "3,5800",
+            "netto": "3,58",
+            "m": "1"
+        },
+        {
+            "artNr": "26383",
+            "artikelb": "WASSERMELONE SEEDLESS PER STÜCK",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "5,0200",
+            "netto": "5,02",
+            "m": "1"
+        },
+        {
+            "artNr": "26400",
+            "artikelb": "MELONE HONIG 8ER",
+            "colli": "",
+            "einh": "8",
+            "berMg": "2",
+            "ePreis": "2,1000",
+            "netto": "4,20",
+            "m": "1"
+        },
+        {
+            "artNr": "30814",
+            "artikelb": "UNIVERSAL-SPÜLREINIGER 12KG",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "22,0900",
+            "netto": "22,09",
+            "m": "2"
+        },
+        {
+            "artNr": "35011",
+            "artikelb": "BUKO FRISCHK.PORT.KRÄUTER 60% 2",
+            "colli": "1",
+            "einh": "48",
+            "berMg": "48",
+            "ePreis": "0,1880",
+            "netto": "9,02",
+            "m": "1"
+        },
+        {
+            "artNr": "35015",
+            "artikelb": "BUKO FRISCHK.PORT.NATUR 70% 20G",
+            "colli": "1",
+            "einh": "48",
+            "berMg": "48",
+            "ePreis": "0,1880",
+            "netto": "9,02",
+            "m": "1"
+        },
+        {
+            "artNr": "36118",
+            "artikelb": "ETERNA BALSAMICO DUNKEL 2L KAN.",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "3,9700",
+            "netto": "3,97",
+            "m": "1"
+        },
+        {
+            "artNr": "38244",
+            "artikelb": "BOLTES TAFELSENF 10KG EIMER",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "0,7650",
+            "netto": "7,65",
+            "m": "1"
+        },
+        {
+            "artNr": "38805",
+            "artikelb": "VIO.CREAMY VEGANER FRISCHKÄSE 3",
+            "colli": "1",
+            "einh": "3,000",
+            "berMg": "3,000",
+            "ePreis": "9,4500",
+            "netto": "28,35",
+            "m": "1"
+        },
+        {
+            "artNr": "49388",
+            "artikelb": "OLIVENöL 0,5L FL.",
+            "colli": "2",
+            "einh": "1",
+            "berMg": "2",
+            "ePreis": "6,8500",
+            "netto": "13,70",
+            "m": "1"
+        },
+        {
+            "artNr": "76308",
+            "artikelb": "TK HÄHNCHENBRUSTFIL.M.FL.Wü.140",
+            "colli": "1",
+            "einh": "3,000",
+            "berMg": "3,000",
+            "ePreis": "5,8900",
+            "netto": "17,67",
+            "m": "1"
+        },
+        {
+            "artNr": "03976",
+            "artikelb": "KISTE EUROPOOL HIN",
+            "colli": "",
+            "einh": "1",
+            "berMg": "2",
+            "ePreis": "3,8600",
+            "netto": "7,72",
+            "m": "2"
+        },
+        {
+            "artNr": "03982",
+            "artikelb": "KISTE E2 SATTE ZURUECK",
+            "colli": "",
+            "einh": "1",
+            "berMg": "-2",
+            "ePreis": "4,0000",
+            "netto": "-8,00",
+            "m": "2"
+        },
+        {
+            "artNr": "04148",
+            "artikelb": "GASTRO PUDDING+SAHNE SCHOKO 125",
+            "colli": "4",
+            "einh": "24",
+            "berMg": "96",
+            "ePreis": "0,2090",
+            "netto": "20,06",
+            "m": "1"
+        },
+        {
+            "artNr": "04341",
+            "artikelb": "BAUER FR.JOGHURT W.ZUCK.1,8% 12",
+            "colli": "4",
+            "einh": "20",
+            "berMg": "80",
+            "ePreis": "0,2030",
+            "netto": "16,24",
+            "m": "1"
+        },
+        {
+            "artNr": "11014",
+            "artikelb": "PUTENBRUST KASSELER GESCHN.500G",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "4,9900",
+            "netto": "4,99",
+            "m": "1"
+        },
+        {
+            "artNr": "11026",
+            "artikelb": "HINTERKOCHSCHINKEN 1A GESCHN.50",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "3,9500",
+            "netto": "3,95",
+            "m": "1"
+        },
+        {
+            "artNr": "11163",
+            "artikelb": "MORTADELLA M.PAPRIKA GESCHN.500",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "2,6900",
+            "netto": "2,69",
+            "m": "1"
+        },
+        {
+            "artNr": "11584",
+            "artikelb": "BIERSCHINKEN GESCHN.1000G PKG",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "6,4500",
+            "netto": "6,45",
+            "m": "1"
+        },
+        {
+            "artNr": "26849",
+            "artikelb": "HIRTENSALAT FETA 1,5KG",
+            "colli": "3",
+            "einh": "1,500",
+            "berMg": "4,500",
+            "ePreis": "5,6300",
+            "netto": "25,34",
+            "m": "1"
+        },
+        {
+            "artNr": "32081",
+            "artikelb": "BEBO SOFT REFORM MARGARINE 2KG",
+            "colli": "1",
+            "einh": "2,000",
+            "berMg": "2,000",
+            "ePreis": "1,9900",
+            "netto": "3,98",
+            "m": "1"
+        },
+        {
+            "artNr": "37006",
+            "artikelb": "TOMATEN-PULPE PASSIERT 10KG BIB",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "8,2300",
+            "netto": "8,23",
+            "m": "1"
+        },
+        {
+            "artNr": "37040",
+            "artikelb": "GEMÜSEMAIS 3/1 ATG 1840G",
+            "colli": "6",
+            "einh": "1",
+            "berMg": "6",
+            "ePreis": "2,8400",
+            "netto": "17,04",
+            "m": "1"
+        },
+        {
+            "artNr": "37070",
+            "artikelb": "KIDNEY BOHNEN 3100ML ATG 1900G",
+            "colli": "4",
+            "einh": "1",
+            "berMg": "4",
+            "ePreis": "3,4900",
+            "netto": "13,96",
+            "m": "1"
+        },
+        {
+            "artNr": "37121",
+            "artikelb": "RIESENBOHNEN BIAN.D.SPAGNA 2650",
+            "colli": "2",
+            "einh": "1",
+            "berMg": "2",
+            "ePreis": "2,6700",
+            "netto": "5,34",
+            "m": "1"
+        },
+        {
+            "artNr": "37321",
+            "artikelb": "ANANAS STÜCKE 4/1 ATG 1840G",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "4,8500",
+            "netto": "4,85",
+            "m": "1"
+        },
+        {
+            "artNr": "37720",
+            "artikelb": "CURRYPASTE ROT 400G",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "1,9670",
+            "netto": "1,97",
+            "m": "1"
+        },
+        {
+            "artNr": "37722",
+            "artikelb": "CURRYPASTE GELB 400G",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "1,9670",
+            "netto": "1,97",
+            "m": "1"
+        },
+        {
+            "artNr": "37842",
+            "artikelb": "VALDIGRANO SPAGHETTI 5KG",
+            "colli": "3",
+            "einh": "5,000",
+            "berMg": "15,000",
+            "ePreis": "1,2300",
+            "netto": "18,45",
+            "m": "1"
+        },
+        {
+            "artNr": "39954",
+            "artikelb": "LORENZ ERDNÜSSE GERöST+GESALZ.1",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "5,2900",
+            "netto": "5,29",
+            "m": "1"
+        },
+        {
+            "artNr": "43013",
+            "artikelb": "SCHMAND 24% 5KG EIMER",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "2,8900",
+            "netto": "14,45",
+            "m": "1"
+        },
+        {
+            "artNr": "43022",
+            "artikelb": "SAHNE JOGHURT NATUR 10% 1KG",
+            "colli": "2",
+            "einh": "1,000",
+            "berMg": "2,000",
+            "ePreis": "1,9300",
+            "netto": "3,86",
+            "m": "1"
+        },
+        {
+            "artNr": "43093",
+            "artikelb": "FRISCHLI MILCHPUDDING SCHOKO 5K",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "1,9900",
+            "netto": "9,95",
+            "m": "1"
+        },
+        {
+            "artNr": "75067",
+            "artikelb": "TK ZUCKERERBSENSCHOTEN 2X2,5KG",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "2,6300",
+            "netto": "13,15",
+            "m": "1"
+        },
+        {
+            "artNr": "75104",
+            "artikelb": "TK FINGERMöHREN  14/18MM 4X2,5K",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "0,9180",
+            "netto": "9,18",
+            "m": "1"
+        },
+        {
+            "artNr": "75262",
+            "artikelb": "TK BIO BRECHBOHNEN 4X2,5KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "2,5800",
+            "netto": "25,80",
+            "m": "1"
+        },
+        {
+            "artNr": "75458",
+            "artikelb": "TK MARKERBSEN FEIN 4X2,5KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,1900",
+            "netto": "11,90",
+            "m": "1"
+        },
+        {
+            "artNr": "76308",
+            "artikelb": "TK HÄHNCHENBRUSTFIL.M.FL.Wü.140",
+            "colli": "6",
+            "einh": "3,000",
+            "berMg": "18,000",
+            "ePreis": "5,8900",
+            "netto": "106,02",
+            "m": "1"
+        },
+        {
+            "artNr": "78105",
+            "artikelb": "TK BAGUETTE 290G",
+            "colli": "1",
+            "einh": "32",
+            "berMg": "32",
+            "ePreis": "0,5190",
+            "netto": "16,61",
+            "m": "1"
+        },
+        {
+            "artNr": "05469",
+            "artikelb": "ARLA GRILLKÄSE CHILI 34% 1,5KG",
+            "colli": "1",
+            "einh": "1,500",
+            "berMg": "1,500",
+            "ePreis": "9,9500",
+            "netto": "14,93",
+            "m": "1"
+        },
+        {
+            "artNr": "07042",
+            "artikelb": "BUNTE PAPRIKA SCHEIB.GEF.50% 50",
+            "colli": "6",
+            "einh": "1",
+            "berMg": "6",
+            "ePreis": "4,7900",
+            "netto": "28,74",
+            "m": "1"
+        },
+        {
+            "artNr": "07050",
+            "artikelb": "MAASDAMER SCHEIB.20G GEF.45% 1K",
+            "colli": "3",
+            "einh": "1,000",
+            "berMg": "3,000",
+            "ePreis": "6,2700",
+            "netto": "18,81",
+            "m": "1"
+        },
+        {
+            "artNr": "60161",
+            "artikelb": "WELLIE WEICHKÄSE SORTIM.CA.1,72",
+            "colli": "1",
+            "einh": "1,000",
+            "berMg": "1,725",
+            "ePreis": "14,2980",
+            "netto": "24,66",
+            "m": "1"
+        },
+        {
+            "artNr": "03982",
+            "artikelb": "KISTE E2 SATTE HIN",
+            "colli": "",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "4,0000",
+            "netto": "4,00",
+            "m": "2"
+        },
+        {
+            "artNr": "03982",
+            "artikelb": "KISTE E2 SATTE ZURUECK",
+            "colli": "",
+            "einh": "1",
+            "berMg": "-1",
+            "ePreis": "4,0000",
+            "netto": "-4,00",
+            "m": "2"
+        },
+        {
+            "artNr": "04030",
+            "artikelb": "M.PREMIUM MAGERQUARK 5KG EIMER",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "1,5300",
+            "netto": "15,30",
+            "m": "1"
+        },
+        {
+            "artNr": "04112",
+            "artikelb": "FRANKENL.FIT FRUCHTJOGH.0,1% 12",
+            "colli": "6",
+            "einh": "20",
+            "berMg": "120",
+            "ePreis": "0,2030",
+            "netto": "24,36",
+            "m": "1"
+        },
+        {
+            "artNr": "04122",
+            "artikelb": "ZOTT GOURMET FRUCHTJOGH.125G 3,",
+            "colli": "6",
+            "einh": "20",
+            "berMg": "120",
+            "ePreis": "0,2450",
+            "netto": "29,40",
+            "m": "1"
+        },
+        {
+            "artNr": "05103",
+            "artikelb": "WEICHKÄSE BAVARIA BLU 150G",
+            "colli": "1",
+            "einh": "8",
+            "berMg": "8",
+            "ePreis": "1,4700",
+            "netto": "11,76",
+            "m": "1"
+        },
+        {
+            "artNr": "07038",
+            "artikelb": "TILSITER SCHEIBEN 20G GEF.30% 1",
+            "colli": "2",
+            "einh": "1,000",
+            "berMg": "2,000",
+            "ePreis": "5,9500",
+            "netto": "11,90",
+            "m": "1"
+        },
+        {
+            "artNr": "07039",
+            "artikelb": "MAASDAMER SCHEIB.20G GEF.30% 1K",
+            "colli": "2",
+            "einh": "1,000",
+            "berMg": "2,000",
+            "ePreis": "6,8300",
+            "netto": "13,66",
+            "m": "1"
+        },
+        {
+            "artNr": "07042",
+            "artikelb": "BUNTE PAPRIKA SCHEIB.GEF.50% 50",
+            "colli": "3",
+            "einh": "1",
+            "berMg": "3",
+            "ePreis": "4,7900",
+            "netto": "14,37",
+            "m": "1"
+        },
+        {
+            "artNr": "07056",
+            "artikelb": "A.GOUDA SCHEIBEN 20G GEF.48% 1K",
+            "colli": "2",
+            "einh": "1,000",
+            "berMg": "2,000",
+            "ePreis": "5,2700",
+            "netto": "10,54",
+            "m": "1"
+        },
+        {
+            "artNr": "07059",
+            "artikelb": "BIO TOFU NATUR 2KG",
+            "colli": "2",
+            "einh": "2,000",
+            "berMg": "4,000",
+            "ePreis": "3,0700",
+            "netto": "12,28",
+            "m": "1"
+        },
+        {
+            "artNr": "11021",
+            "artikelb": "BIERSCHINKEN GESCHN.500G PKG",
+            "colli": "3",
+            "einh": "1",
+            "berMg": "3",
+            "ePreis": "2,9500",
+            "netto": "8,85",
+            "m": "1"
+        },
+        {
+            "artNr": "11025",
+            "artikelb": "SALAMI GESCHN.500G PKG",
+            "colli": "3",
+            "einh": "1",
+            "berMg": "3",
+            "ePreis": "3,1300",
+            "netto": "9,39",
+            "m": "1"
+        },
+        {
+            "artNr": "11038",
+            "artikelb": "FRÜHSTÜCKSSCHINKEN GESCHN.500G",
+            "colli": "3",
+            "einh": "1",
+            "berMg": "3",
+            "ePreis": "4,5200",
+            "netto": "13,56",
+            "m": "1"
+        },
+        {
+            "artNr": "11069",
+            "artikelb": "PFÄLZER LEBERWURST 800G",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "3,7500",
+            "netto": "3,75",
+            "m": "1"
+        },
+        {
+            "artNr": "11163",
+            "artikelb": "MORTADELLA M.PAPRIKA GESCHN.500",
+            "colli": "2",
+            "einh": "1",
+            "berMg": "2",
+            "ePreis": "2,6900",
+            "netto": "5,38",
+            "m": "1"
+        },
+        {
+            "artNr": "11228",
+            "artikelb": "TRUTH.BR.KAL115 GERÄU.GESCHN.50",
+            "colli": "3",
+            "einh": "1",
+            "berMg": "3",
+            "ePreis": "4,3500",
+            "netto": "13,05",
+            "m": "1"
+        },
+        {
+            "artNr": "11571",
+            "artikelb": "FR.ZWIEBELMETTWURST 2X500G 1KG",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "6,3500",
+            "netto": "6,35",
+            "m": "1"
+        },
+        {
+            "artNr": "37717",
+            "artikelb": "CHINESISCHE GLASNUDELN LANG 1KG",
+            "colli": "1",
+            "einh": "10",
+            "berMg": "10",
+            "ePreis": "3,2890",
+            "netto": "32,89",
+            "m": "1"
+        },
+        {
+            "artNr": "37853",
+            "artikelb": "FRENCH DRESSING 5L",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "2,5900",
+            "netto": "12,95",
+            "m": "1"
+        },
+        {
+            "artNr": "37855",
+            "artikelb": "JOGHURT DRESSING 5L",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "3,0100",
+            "netto": "15,05",
+            "m": "1"
+        },
+        {
+            "artNr": "39092",
+            "artikelb": "CHILISAUCE FÜR HUHN 650ML",
+            "colli": "2",
+            "einh": "1",
+            "berMg": "2",
+            "ePreis": "2,4840",
+            "netto": "4,97",
+            "m": "1"
+        },
+        {
+            "artNr": "43013",
+            "artikelb": "SCHMAND 24% 5KG EIMER",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "2,8900",
+            "netto": "14,45",
+            "m": "1"
+        },
+        {
+            "artNr": "43034",
+            "artikelb": "KIRSCH JOGHURT 1,5% 5KG EIMER",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "1,4300",
+            "netto": "7,15",
+            "m": "1"
+        },
+        {
+            "artNr": "43049",
+            "artikelb": "TUFFI NATURJOGHURT 1,5% 5KG EIM",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "0,9800",
+            "netto": "9,80",
+            "m": "1"
+        },
+        {
+            "artNr": "43050",
+            "artikelb": "ITAL.HARTKÄSE GERIEBEN 32% 1KG",
+            "colli": "2",
+            "einh": "1,000",
+            "berMg": "2,000",
+            "ePreis": "8,1900",
+            "netto": "16,38",
+            "m": "1"
+        },
+        {
+            "artNr": "43076",
+            "artikelb": "FRISCHLI SAHNEPUDDING SCHOKO 5K",
+            "colli": "3",
+            "einh": "5,000",
+            "berMg": "15,000",
+            "ePreis": "1,9500",
+            "netto": "29,25",
+            "m": "1"
+        },
+        {
+            "artNr": "43187",
+            "artikelb": "MILRAM VANILLEPUDDING 3,1% 5KG",
+            "colli": "3",
+            "einh": "5,000",
+            "berMg": "15,000",
+            "ePreis": "1,8500",
+            "netto": "27,75",
+            "m": "1"
+        },
+        {
+            "artNr": "43197",
+            "artikelb": "MILRAM QUARK DESSERT BIRNE 5KG",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "2,3900",
+            "netto": "11,95",
+            "m": "1"
+        },
+        {
+            "artNr": "73889",
+            "artikelb": "TK GNOCCHI GELB CA.8G  2X2,5KG",
+            "colli": "5",
+            "einh": "5,000",
+            "berMg": "25,000",
+            "ePreis": "2,1900",
+            "netto": "54,75",
+            "m": "1"
+        },
+        {
+            "artNr": "74026",
+            "artikelb": "TK MSC SEELACH.LOIN 160/180G 5K",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "6,5900",
+            "netto": "65,90",
+            "m": "1"
+        },
+        {
+            "artNr": "75013",
+            "artikelb": "TK BLATTSPINAT PORTIONEN 1X10KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "0,9350",
+            "netto": "9,35",
+            "m": "1"
+        },
+        {
+            "artNr": "75067",
+            "artikelb": "TK ZUCKERERBSENSCHOTEN 2X2,5KG",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "2,6300",
+            "netto": "13,15",
+            "m": "1"
+        },
+        {
+            "artNr": "75111",
+            "artikelb": "TK MARKERBSEN MITTELFEIN 4X2,5K",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,2250",
+            "netto": "12,25",
+            "m": "1"
+        },
+        {
+            "artNr": "75529",
+            "artikelb": "TK MINI RöSTI-TALER CA.10G",
+            "colli": "4",
+            "einh": "5,000",
+            "berMg": "20,000",
+            "ePreis": "2,1650",
+            "netto": "43,30",
+            "m": "1"
+        },
+        {
+            "artNr": "03982",
+            "artikelb": "KISTE E2 SATTE HIN",
+            "colli": "",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "4,0000",
+            "netto": "4,00",
+            "m": "2"
+        },
+        {
+            "artNr": "03982",
+            "artikelb": "KISTE E2 SATTE ZURUECK",
+            "colli": "",
+            "einh": "1",
+            "berMg": "-1",
+            "ePreis": "4,0000",
+            "netto": "-4,00",
+            "m": "2"
+        },
+        {
+            "artNr": "19939",
+            "artikelb": "JOYCE AQUA 0,5L TETRA",
+            "colli": "3",
+            "einh": "12",
+            "berMg": "36",
+            "ePreis": "0,2510",
+            "netto": "9,04",
+            "m": "2"
+        },
+        {
+            "artNr": "19940",
+            "artikelb": "JOYCE EISTEE ZITRONE 0,5L TETRA",
+            "colli": "2",
+            "einh": "12",
+            "berMg": "24",
+            "ePreis": "0,3390",
+            "netto": "8,14",
+            "m": "2"
+        },
+        {
+            "artNr": "19941",
+            "artikelb": "JOYCE EISTEE PFIRSICH 0,5L TETR",
+            "colli": "2",
+            "einh": "12",
+            "berMg": "24",
+            "ePreis": "0,3390",
+            "netto": "8,14",
+            "m": "2"
+        },
+        {
+            "artNr": "19170",
+            "artikelb": "DORNFELDER TROCKEN 0,25L",
+            "colli": "2",
+            "einh": "24",
+            "berMg": "48",
+            "ePreis": "1,8100",
+            "netto": "86,88",
+            "m": "2"
+        },
+        {
+            "artNr": "19172",
+            "artikelb": "CHENET SAUVIGNON 0,25L",
+            "colli": "8",
+            "einh": "6",
+            "berMg": "48",
+            "ePreis": "1,0900",
+            "netto": "52,32",
+            "m": "2"
+        },
+        {
+            "artNr": "19177",
+            "artikelb": "MM SEKT EXTRA TROCKEN 0,2L/1ER",
+            "colli": "1",
+            "einh": "24",
+            "berMg": "24",
+            "ePreis": "0,9500",
+            "netto": "22,80",
+            "m": "2"
+        },
+        {
+            "artNr": "37852",
+            "artikelb": "BALSAMICO DRESSING 5L",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "3,0100",
+            "netto": "15,05",
+            "m": "1"
+        },
+        {
+            "artNr": "37856",
+            "artikelb": "THOUSAND ISLAND-DRESSING 5L",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "3,0100",
+            "netto": "15,05",
+            "m": "1"
+        },
+        {
+            "artNr": "03976",
+            "artikelb": "KISTE EUROPOOL ZURUECK",
+            "colli": "",
+            "einh": "1",
+            "berMg": "-1",
+            "ePreis": "3,8600",
+            "netto": "-3,86",
+            "m": "2"
+        },
+        {
+            "artNr": "03978",
+            "artikelb": "KISTE IFCO HIN",
+            "colli": "",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "1,5000",
+            "netto": "1,50",
+            "m": "2"
+        },
+        {
+            "artNr": "05413",
+            "artikelb": "GOLDST.MOZZARELLA 45% 1KG BROT",
+            "colli": "2",
+            "einh": "1,000",
+            "berMg": "2,000",
+            "ePreis": "4,5900",
+            "netto": "9,18",
+            "m": "1"
+        },
+        {
+            "artNr": "07059",
+            "artikelb": "BIO TOFU NATUR 2KG",
+            "colli": "2",
+            "einh": "2,000",
+            "berMg": "4,000",
+            "ePreis": "3,0700",
+            "netto": "12,28",
+            "m": "1"
+        },
+        {
+            "artNr": "11501",
+            "artikelb": "PULLED PORK 2X2,275KG",
+            "colli": "6",
+            "einh": "4,550",
+            "berMg": "27,300",
+            "ePreis": "7,4500",
+            "netto": "203,39",
+            "m": "1"
+        },
+        {
+            "artNr": "19929",
+            "artikelb": "KOKOSNUSSMILCH ’MAE PLOY’1L TET",
+            "colli": "12",
+            "einh": "1",
+            "berMg": "12",
+            "ePreis": "2,2900",
+            "netto": "27,48",
+            "m": "1"
+        },
+        {
+            "artNr": "32063",
+            "artikelb": "RAMA CREMEFINE Z.KOCHEN 15% 1L",
+            "colli": "1",
+            "einh": "12",
+            "berMg": "12",
+            "ePreis": "1,8700",
+            "netto": "22,44",
+            "m": "1"
+        },
+        {
+            "artNr": "37985",
+            "artikelb": "MAISSTÄRKE 10KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,1100",
+            "netto": "11,10",
+            "m": "1"
+        },
+        {
+            "artNr": "69363",
+            "artikelb": "GAZI HIRTENKÄSE CLASSIC 1,6KG V",
+            "colli": "2",
+            "einh": "1,600",
+            "berMg": "3,200",
+            "ePreis": "4,8700",
+            "netto": "15,58",
+            "m": "1"
+        },
+        {
+            "artNr": "73889",
+            "artikelb": "TK GNOCCHI GELB CA.8G  2X2,5KG",
+            "colli": "4",
+            "einh": "5,000",
+            "berMg": "20,000",
+            "ePreis": "2,1900",
+            "netto": "43,80",
+            "m": "1"
+        },
+        {
+            "artNr": "75058",
+            "artikelb": "TK BROCCOLI 40/60 4X2,5KG",
+            "colli": "3",
+            "einh": "10,000",
+            "berMg": "30,000",
+            "ePreis": "1,2390",
+            "netto": "37,17",
+            "m": "1"
+        },
+        {
+            "artNr": "75087",
+            "artikelb": "TK ARDO ZWIEBELN GEWÜ.10X10 2,5",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,8000",
+            "netto": "18,00",
+            "m": "1"
+        },
+        {
+            "artNr": "75111",
+            "artikelb": "TK MARKERBSEN MITTELFEIN 4X2,5K",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,2250",
+            "netto": "12,25",
+            "m": "1"
+        },
+        {
+            "artNr": "78636",
+            "artikelb": "TK FRANZBRöTCHEN 72X120G",
+            "colli": "1",
+            "einh": "72",
+            "berMg": "72",
+            "ePreis": "0,5070",
+            "netto": "36,50",
+            "m": "1"
+        },
+        {
+            "artNr": "11501",
+            "artikelb": "PULLED PORK 2X2,275KG",
+            "colli": "-1",
+            "einh": "4,550",
+            "berMg": "-4,550",
+            "ePreis": "7,4500",
+            "netto": "-33,90",
+            "m": "1"
+        },
+        {
+            "artNr": "05413",
+            "artikelb": "GOLDST.MOZZARELLA 45% 1KG BROT",
+            "colli": "1",
+            "einh": "1,000",
+            "berMg": "1,000",
+            "ePreis": "4,5900",
+            "netto": "4,59",
+            "m": "1"
+        },
+        {
+            "artNr": "05484",
+            "artikelb": "SALAKIS SCHAFSKÄSE 48% CA.2KG",
+            "colli": "3",
+            "einh": "1,000",
+            "berMg": "5,551",
+            "ePreis": "8,8490",
+            "netto": "49,12",
+            "m": "1"
+        },
+        {
+            "artNr": "19929",
+            "artikelb": "KOKOSNUSSMILCH ’MAE PLOY’1L TET",
+            "colli": "6",
+            "einh": "1",
+            "berMg": "6",
+            "ePreis": "2,2900",
+            "netto": "13,74",
+            "m": "1"
+        },
+        {
+            "artNr": "36693",
+            "artikelb": "FRISCHEIWAFFELN 25G",
+            "colli": "1",
+            "einh": "72",
+            "berMg": "72",
+            "ePreis": "0,1450",
+            "netto": "10,44",
+            "m": "1"
+        },
+        {
+            "artNr": "37040",
+            "artikelb": "GEMÜSEMAIS 3/1 ATG 1840G",
+            "colli": "6",
+            "einh": "1",
+            "berMg": "6",
+            "ePreis": "2,8400",
+            "netto": "17,04",
+            "m": "1"
+        },
+        {
+            "artNr": "37095",
+            "artikelb": "SAUERKRAUT 10/1 ATG 9700G",
+            "colli": "2",
+            "einh": "1",
+            "berMg": "2",
+            "ePreis": "8,6300",
+            "netto": "17,26",
+            "m": "1"
+        },
+        {
+            "artNr": "37942",
+            "artikelb": "SPAGHETTI 5KG",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "1,1100",
+            "netto": "11,10",
+            "m": "1"
+        },
+        {
+            "artNr": "38576",
+            "artikelb": "COUSCOUS GRIESS 5KG BTL.",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "1,9200",
+            "netto": "9,60",
+            "m": "1"
+        },
+        {
+            "artNr": "39741",
+            "artikelb": "KINDER COUNTRY RIEGEL 23,5G",
+            "colli": "1",
+            "einh": "40",
+            "berMg": "40",
+            "ePreis": "0,2310",
+            "netto": "9,24",
+            "m": "1"
+        },
+        {
+            "artNr": "40001",
+            "artikelb": "KNOPPERS 25G",
+            "colli": "3",
+            "einh": "15",
+            "berMg": "45",
+            "ePreis": "0,2340",
+            "netto": "10,53",
+            "m": "1"
+        },
+        {
+            "artNr": "40526",
+            "artikelb": "SOJA SCHNETZEL 6KG",
+            "colli": "1",
+            "einh": "6,000",
+            "berMg": "6,000",
+            "ePreis": "5,6900",
+            "netto": "34,14",
+            "m": "1"
+        },
+        {
+            "artNr": "73802",
+            "artikelb": "TK SCHUPFNUDELN SCHWÄBISCH CA.1",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "2,1300",
+            "netto": "21,30",
+            "m": "1"
+        },
+        {
+            "artNr": "75020",
+            "artikelb": "TK RATATOUILLE 4X2,5KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "0,9590",
+            "netto": "9,59",
+            "m": "1"
+        },
+        {
+            "artNr": "75066",
+            "artikelb": "TK CHINAGEMÜSE 4X2,5KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,3900",
+            "netto": "13,90",
+            "m": "1"
+        },
+        {
+            "artNr": "75067",
+            "artikelb": "TK ZUCKERERBSENSCHOTEN 2X2,5KG",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "2,6300",
+            "netto": "13,15",
+            "m": "1"
+        },
+        {
+            "artNr": "75111",
+            "artikelb": "TK MARKERBSEN MITTELFEIN 4X2,5K",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,2250",
+            "netto": "12,25",
+            "m": "1"
+        },
+        {
+            "artNr": "75529",
+            "artikelb": "TK MINI RöSTI-TALER CA.10G",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "2,1650",
+            "netto": "21,65",
+            "m": "1"
+        },
+        {
+            "artNr": "76308",
+            "artikelb": "TK HÄHNCHENBRUSTFIL.M.FL.Wü.140",
+            "colli": "7",
+            "einh": "3,000",
+            "berMg": "21,000",
+            "ePreis": "5,8900",
+            "netto": "123,69",
+            "m": "1"
+        },
+        {
+            "artNr": "77535",
+            "artikelb": "TK HASELNUSSKRANZ 1100G",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "9,3840",
+            "netto": "9,38",
+            "m": "1"
+        },
+        {
+            "artNr": "77536",
+            "artikelb": "TK MARMORKRANZ 1100G",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "7,6740",
+            "netto": "7,67",
+            "m": "1"
+        },
+        {
+            "artNr": "77537",
+            "artikelb": "TK ZITRONENKRANZ 1100G",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "7,6740",
+            "netto": "7,67",
+            "m": "1"
+        },
+        {
+            "artNr": "73802",
+            "artikelb": "TK SCHUPFNUDELN SCHWÄBISCH CA.1",
+            "colli": "3",
+            "einh": "5,000",
+            "berMg": "15,000",
+            "ePreis": "2,1300",
+            "netto": "31,95",
+            "m": "1"
+        },
+        {
+            "artNr": "74026",
+            "artikelb": "TK MSC SEELACH.LOIN 160/180G 5K",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "6,5900",
+            "netto": "65,90",
+            "m": "1"
+        },
+        {
+            "artNr": "75069",
+            "artikelb": "TK BRUNOISE-MISCHUNG 4X2,5KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "0,8630",
+            "netto": "8,63",
+            "m": "1"
+        },
+        {
+            "artNr": "75104",
+            "artikelb": "TK FINGERMöHREN  14/18MM 4X2,5K",
+            "colli": "2",
+            "einh": "10,000",
+            "berMg": "20,000",
+            "ePreis": "0,9180",
+            "netto": "18,36",
+            "m": "1"
+        },
+        {
+            "artNr": "75648",
+            "artikelb": "TK KARTOF-WEDGES M.SCHALE 4X2,5",
+            "colli": "2",
+            "einh": "10,000",
+            "berMg": "20,000",
+            "ePreis": "1,3250",
+            "netto": "26,50",
+            "m": "1"
+        },
+        {
+            "artNr": "78435",
+            "artikelb": "TK MINI LAUGENGEBÄCK 3FACH 180S",
+            "colli": "1",
+            "einh": "180",
+            "berMg": "180",
+            "ePreis": "0,1890",
+            "netto": "34,02",
+            "m": "1"
+        },
+        {
+            "artNr": "03976",
+            "artikelb": "KISTE EUROPOOL HIN",
+            "colli": "",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "3,8600",
+            "netto": "3,86",
+            "m": "2"
+        },
+        {
+            "artNr": "03976",
+            "artikelb": "KISTE EUROPOOL ZURUECK",
+            "colli": "",
+            "einh": "1",
+            "berMg": "-1",
+            "ePreis": "3,8600",
+            "netto": "-3,86",
+            "m": "2"
+        },
+        {
+            "artNr": "78478",
+            "artikelb": "TK LAUGENBREZEL M.SCHNITT 84X10",
+            "colli": "1",
+            "einh": "84",
+            "berMg": "84",
+            "ePreis": "0,1630",
+            "netto": "13,69",
+            "m": "1"
+        },
+        {
+            "artNr": "39023",
+            "artikelb": "FK MSC BRATHERINGE 2500G/1750G",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "15,5900",
+            "netto": "15,59",
+            "m": "1"
+        },
+        {
+            "artNr": "39111",
+            "artikelb": "LP HERINGSSALAT ROT 1KG",
+            "colli": "1",
+            "einh": "1,000",
+            "berMg": "1,000",
+            "ePreis": "4,6700",
+            "netto": "4,67",
+            "m": "1"
+        },
+        {
+            "artNr": "39114",
+            "artikelb": "LP HERINGSSALAT WEIß 1KG",
+            "colli": "1",
+            "einh": "1,000",
+            "berMg": "1,000",
+            "ePreis": "4,8300",
+            "netto": "4,83",
+            "m": "1"
+        },
+        {
+            "artNr": "00062",
+            "artikelb": "EIFIX VOLLEI BODENHALTUNG 1KG P",
+            "colli": "1",
+            "einh": "12",
+            "berMg": "12",
+            "ePreis": "2,7800",
+            "netto": "33,36",
+            "m": "1"
+        },
+        {
+            "artNr": "00068",
+            "artikelb": "EIER BODENHALT’M’WEIß LOSE 360E",
+            "colli": "1",
+            "einh": "360",
+            "berMg": "360",
+            "ePreis": "0,1040",
+            "netto": "37,44",
+            "m": "1"
+        },
+        {
+            "artNr": "03001",
+            "artikelb": "H-MILCH 3,5% 0,5L PKG",
+            "colli": "1",
+            "einh": "12",
+            "berMg": "12",
+            "ePreis": "0,5490",
+            "netto": "6,59",
+            "m": "1"
+        },
+        {
+            "artNr": "03009",
+            "artikelb": "FRISCHLI H-KAKAO 0,5L PKG.",
+            "colli": "1",
+            "einh": "12",
+            "berMg": "12",
+            "ePreis": "0,4970",
+            "netto": "5,96",
+            "m": "1"
+        },
+        {
+            "artNr": "04570",
+            "artikelb": "FRISCHLI MILCHPUDDING SCHOKO 85",
+            "colli": "5",
+            "einh": "20",
+            "berMg": "100",
+            "ePreis": "0,1690",
+            "netto": "16,90",
+            "m": "1"
+        },
+        {
+            "artNr": "05439",
+            "artikelb": "FRANZ.TORTENBRIE 50% CA.3KG",
+            "colli": "1",
+            "einh": "1,000",
+            "berMg": "3,326",
+            "ePreis": "5,0900",
+            "netto": "16,93",
+            "m": "1"
+        },
+        {
+            "artNr": "05456",
+            "artikelb": "BRESSO KRÄUTERTOPF 62% 1,5KG",
+            "colli": "1",
+            "einh": "1,500",
+            "berMg": "1,500",
+            "ePreis": "9,1900",
+            "netto": "13,79",
+            "m": "1"
+        },
+        {
+            "artNr": "32025",
+            "artikelb": "SIEDEFETT HALBFLÜSSIG 10KG",
+            "colli": "3",
+            "einh": "10,000",
+            "berMg": "30,000",
+            "ePreis": "1,4990",
+            "netto": "44,97",
+            "m": "1"
+        },
+        {
+            "artNr": "32032",
+            "artikelb": "RAPSöL 10L PET-FLASCHE",
+            "colli": "3",
+            "einh": "1",
+            "berMg": "3",
+            "ePreis": "12,7900",
+            "netto": "38,37",
+            "m": "1"
+        },
+        {
+            "artNr": "37921",
+            "artikelb": "KOCHS SAHNEMEERRETTICH SQUEE.485",
+            "colli": "G",
+            "einh": "6",
+            "berMg": "1",
+            "ePreis": "2,2500",
+            "netto": "2,25",
+            "m": "1"
+        },
+        {
+            "artNr": "38709",
+            "artikelb": "RUF SCHOKO-STREUSEL 1KG",
+            "colli": "1",
+            "einh": "1,000",
+            "berMg": "1,000",
+            "ePreis": "6,5900",
+            "netto": "6,59",
+            "m": "1"
+        },
+        {
+            "artNr": "38814",
+            "artikelb": "FRISCHKäSE NATUR 20%  1,5KG",
+            "colli": "1",
+            "einh": "1,500",
+            "berMg": "1,500",
+            "ePreis": "4,5900",
+            "netto": "6,89",
+            "m": "1"
+        },
+        {
+            "artNr": "39011",
+            "artikelb": "MSC HERINGSF.MATJESART-öL3/1ATG",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "16,1040",
+            "netto": "16,10",
+            "m": "1"
+        },
+        {
+            "artNr": "43042",
+            "artikelb": "GASTRO JOGHURT ERDBEER 3,5% 5KG",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "1,5500",
+            "netto": "7,75",
+            "m": "1"
+        },
+        {
+            "artNr": "43046",
+            "artikelb": "MAGERQUARK 5KG EIMER ’CLASSIK’",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "1,5000",
+            "netto": "7,50",
+            "m": "1"
+        },
+        {
+            "artNr": "43048",
+            "artikelb": "NATURJOGHURT 3,5% 5KG EIMER",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "1,1400",
+            "netto": "5,70",
+            "m": "1"
+        },
+        {
+            "artNr": "43076",
+            "artikelb": "FRISCHLI SAHNEPUDDING SCHOKO 5K",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "1,9500",
+            "netto": "19,50",
+            "m": "1"
+        },
+        {
+            "artNr": "43078",
+            "artikelb": "FRISCHLI GRIESSPUDDING 5KG",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "1,9500",
+            "netto": "19,50",
+            "m": "1"
+        },
+        {
+            "artNr": "43088",
+            "artikelb": "FRISCHL.NUSS-NOUG.PUDD.M.SAHNE5",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "1,9500",
+            "netto": "19,50",
+            "m": "1"
+        },
+        {
+            "artNr": "43184",
+            "artikelb": "GA.FRUCHTQUARK APRIKOSE 20% 5KG",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "2,2100",
+            "netto": "11,05",
+            "m": "1"
+        },
+        {
+            "artNr": "43187",
+            "artikelb": "MILRAM VANILLEPUDDING 3,1% 5KG",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "1,8500",
+            "netto": "18,50",
+            "m": "1"
+        },
+        {
+            "artNr": "48560",
+            "artikelb": "TOMATEN GEWÜRZSALZ 650G BOX",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "8,9500",
+            "netto": "8,95",
+            "m": "1"
+        },
+        {
+            "artNr": "49546",
+            "artikelb": "SMOKAL RAUCHAROMA 1KG BTL.",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "9,5000",
+            "netto": "9,50",
+            "m": "1"
+        },
+        {
+            "artNr": "74997",
+            "artikelb": "TK PAPRIKAWÜRFEL R/G/G 4X2,5KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,6800",
+            "netto": "16,80",
+            "m": "1"
+        },
+        {
+            "artNr": "75055",
+            "artikelb": "TK BRECHBOHNEN 3-4CM 1X10KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "0,9690",
+            "netto": "9,69",
+            "m": "1"
+        },
+        {
+            "artNr": "75538",
+            "artikelb": "TK SPICY JACKET WEDGES 4X2,5KG",
+            "colli": "3",
+            "einh": "10,000",
+            "berMg": "30,000",
+            "ePreis": "1,2590",
+            "netto": "37,77",
+            "m": "1"
+        },
+        {
+            "artNr": "04363",
+            "artikelb": "MÜLLER FRUCTIV SORTIERUNG 2 440",
+            "colli": "1",
+            "einh": "12",
+            "berMg": "12",
+            "ePreis": "0,6460",
+            "netto": "7,75",
+            "m": "2"
+        },
+        {
+            "artNr": "38814",
+            "artikelb": "FRISCHKäSE NATUR 20%  1,5KG",
+            "colli": "-1",
+            "einh": "1,500",
+            "berMg": "-1,500",
+            "ePreis": "4,5900",
+            "netto": "-6,89",
+            "m": "1"
+        },
+        {
+            "artNr": "60161",
+            "artikelb": "WELLIE WEICHKÄSE SORTIM.CA.1,72",
+            "colli": "-1",
+            "einh": "1,000",
+            "berMg": "-1,725",
+            "ePreis": "14,2980",
+            "netto": "-24,66",
+            "m": "1"
+        },
+        {
+            "artNr": "07059",
+            "artikelb": "BIO TOFU NATUR 2KG",
+            "colli": "2",
+            "einh": "2,000",
+            "berMg": "4,000",
+            "ePreis": "3,0700",
+            "netto": "12,28",
+            "m": "1"
+        },
+        {
+            "artNr": "19073",
+            "artikelb": "WG MULTIVITAMIN 12 FRUCHT 50% 1",
+            "colli": "2",
+            "einh": "8",
+            "berMg": "16",
+            "ePreis": "0,7490",
+            "netto": "11,98",
+            "m": "2"
+        },
+        {
+            "artNr": "19075",
+            "artikelb": "WG ORANGENSAFT 100% 1L PKG",
+            "colli": "1",
+            "einh": "8",
+            "berMg": "8",
+            "ePreis": "0,8300",
+            "netto": "6,64",
+            "m": "2"
+        },
+        {
+            "artNr": "26850",
+            "artikelb": "ROTKRAUTSALAT CS 3KG",
+            "colli": "1",
+            "einh": "3,000",
+            "berMg": "3,000",
+            "ePreis": "2,3000",
+            "netto": "6,90",
+            "m": "1"
+        },
+        {
+            "artNr": "26994",
+            "artikelb": "KAROTTENSALAT CS 3KG",
+            "colli": "1",
+            "einh": "3,000",
+            "berMg": "3,000",
+            "ePreis": "1,9900",
+            "netto": "5,97",
+            "m": "1"
+        },
+        {
+            "artNr": "37060",
+            "artikelb": "GEWÜRZGURKEN 55/60 10/1 ATG 560",
+            "colli": "2",
+            "einh": "1",
+            "berMg": "2",
+            "ePreis": "6,8900",
+            "netto": "13,78",
+            "m": "1"
+        },
+        {
+            "artNr": "37951",
+            "artikelb": "PENNE RIGATE GROß 5KG",
+            "colli": "2",
+            "einh": "5,000",
+            "berMg": "10,000",
+            "ePreis": "1,1100",
+            "netto": "11,10",
+            "m": "1"
+        },
+        {
+            "artNr": "38024",
+            "artikelb": "HEINZ BARBECUESAUCE 11,5KG EIME",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "28,2900",
+            "netto": "28,29",
+            "m": "1"
+        },
+        {
+            "artNr": "38576",
+            "artikelb": "COUSCOUS GRIESS 5KG BTL.",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "1,9200",
+            "netto": "9,60",
+            "m": "1"
+        },
+        {
+            "artNr": "38814",
+            "artikelb": "FRISCHKäSE NATUR 20%  1,5KG",
+            "colli": "1",
+            "einh": "1,500",
+            "berMg": "1,500",
+            "ePreis": "4,5900",
+            "netto": "6,89",
+            "m": "1"
+        },
+        {
+            "artNr": "39155",
+            "artikelb": "LP KRAUTSALAT O.K.5KG",
+            "colli": "1",
+            "einh": "5,000",
+            "berMg": "5,000",
+            "ePreis": "1,8700",
+            "netto": "9,35",
+            "m": "1"
+        },
+        {
+            "artNr": "48697",
+            "artikelb": "WACHOLDERBEEREN GANZ GETR. 1KG",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "10,5900",
+            "netto": "10,59",
+            "m": "1"
+        },
+        {
+            "artNr": "69363",
+            "artikelb": "GAZI HIRTENKÄSE CLASSIC 1,6KG V",
+            "colli": "1",
+            "einh": "1,600",
+            "berMg": "1,600",
+            "ePreis": "4,8700",
+            "netto": "7,79",
+            "m": "1"
+        },
+        {
+            "artNr": "05411",
+            "artikelb": "GALBANI MOZZARELLA 48% 1KG BROT",
+            "colli": "4",
+            "einh": "1",
+            "berMg": "4",
+            "ePreis": "7,5500",
+            "netto": "30,20",
+            "m": "1"
+        },
+        {
+            "artNr": "05484",
+            "artikelb": "SALAKIS SCHAFSKÄSE 48% CA.2KG",
+            "colli": "2",
+            "einh": "1,000",
+            "berMg": "3,774",
+            "ePreis": "8,8490",
+            "netto": "33,40",
+            "m": "1"
+        },
+        {
+            "artNr": "07059",
+            "artikelb": "BIO TOFU NATUR 2KG",
+            "colli": "2",
+            "einh": "2,000",
+            "berMg": "4,000",
+            "ePreis": "3,0700",
+            "netto": "12,28",
+            "m": "1"
+        },
+        {
+            "artNr": "37943",
+            "artikelb": "FUSILLI-SPIRALEN 5KG",
+            "colli": "4",
+            "einh": "5,000",
+            "berMg": "20,000",
+            "ePreis": "1,1100",
+            "netto": "22,20",
+            "m": "1"
+        },
+        {
+            "artNr": "38205",
+            "artikelb": "SALATMAYONNAISE 50% 10KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,4500",
+            "netto": "14,50",
+            "m": "1"
+        },
+        {
+            "artNr": "38220",
+            "artikelb": "TOMATENKETCHUP 10KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,2600",
+            "netto": "12,60",
+            "m": "1"
+        },
+        {
+            "artNr": "38529",
+            "artikelb": "JODSALZ 10KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "0,3100",
+            "netto": "3,10",
+            "m": "1"
+        },
+        {
+            "artNr": "38550",
+            "artikelb": "ZUCKER 1KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "0,7400",
+            "netto": "7,40",
+            "m": "1"
+        },
+        {
+            "artNr": "38950",
+            "artikelb": "MM.PARBOILED-LANGKORNREIS 10KG",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,4800",
+            "netto": "14,80",
+            "m": "1"
+        },
+        {
+            "artNr": "48636",
+            "artikelb": "KRÄUTER DER PROVENCE GETR. 1KG",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "8,6900",
+            "netto": "8,69",
+            "m": "1"
+        },
+        {
+            "artNr": "49243",
+            "artikelb": "CURRY INDIAN 550G DS.",
+            "colli": "1",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "5,0800",
+            "netto": "5,08",
+            "m": "1"
+        },
+        {
+            "artNr": "73802",
+            "artikelb": "TK SCHUPFNUDELN SCHWÄBISCH CA.1",
+            "colli": "3",
+            "einh": "5,000",
+            "berMg": "15,000",
+            "ePreis": "2,1300",
+            "netto": "31,95",
+            "m": "1"
+        },
+        {
+            "artNr": "75087",
+            "artikelb": "TK ARDO ZWIEBELN GEWÜ.10X10 2,5",
+            "colli": "1",
+            "einh": "10,000",
+            "berMg": "10,000",
+            "ePreis": "1,8000",
+            "netto": "18,00",
+            "m": "1"
+        },
+        {
+            "artNr": "75104",
+            "artikelb": "TK FINGERMöHREN  14/18MM 4X2,5K",
+            "colli": "2",
+            "einh": "10,000",
+            "berMg": "20,000",
+            "ePreis": "0,9180",
+            "netto": "18,36",
+            "m": "1"
+        },
+        {
+            "artNr": "76418",
+            "artikelb": "TK HÄHN.CORDON BLEU VORGEB. 150",
+            "colli": "4",
+            "einh": "4,500",
+            "berMg": "18,000",
+            "ePreis": "6,6900",
+            "netto": "120,42",
+            "m": "1"
+        },
+        {
+            "artNr": "07082",
+            "artikelb": "GOUDA SCHEIBEN 20G GEF.48% 1KG",
+            "colli": "4",
+            "einh": "1,000",
+            "berMg": "4,000",
+            "ePreis": "5,7700",
+            "netto": "23,08",
+            "m": "1"
+        },
+        {
+            "artNr": "38525",
+            "artikelb": "FRISCHE POMMES 10MM 2X5KG",
+            "colli": "3",
+            "einh": "10,000",
+            "berMg": "30,000",
+            "ePreis": "1,0290",
+            "netto": "30,87",
+            "m": "1"
+        },
+        {
+            "artNr": "38801",
+            "artikelb": "EXQUISA KRÄUTER 1,5KG TOPF 70%",
+            "colli": "1",
+            "einh": "1,500",
+            "berMg": "1,500",
+            "ePreis": "5,6900",
+            "netto": "8,54",
+            "m": "1"
+        },
+        {
+            "artNr": "38814",
+            "artikelb": "FRISCHKäSE NATUR 20%  1,5KG",
+            "colli": "1",
+            "einh": "1,500",
+            "berMg": "1,500",
+            "ePreis": "4,5900",
+            "netto": "6,89",
+            "m": "1"
+        },
+        {
+            "artNr": "40004",
+            "artikelb": "ÜLTJE STUDENTENFUTTER ORIG.50G",
+            "colli": "2",
+            "einh": "20",
+            "berMg": "40",
+            "ePreis": "0,5200",
+            "netto": "20,80",
+            "m": "1"
+        },
+        {
+            "artNr": "44598",
+            "artikelb": "ALPRO SOJA DRINK ORIGINAL 1L",
+            "colli": "",
+            "einh": "12",
+            "berMg": "2",
+            "ePreis": "1,1390",
+            "netto": "2,28",
+            "m": "2"
+        },
+        {
+            "artNr": "73704",
+            "artikelb": "TK PFANNKUCHEN OHNE FÜLLUNG 70G",
+            "colli": "1",
+            "einh": "100",
+            "berMg": "100",
+            "ePreis": "0,1550",
+            "netto": "15,50",
+            "m": "1"
+        },
+        {
+            "artNr": "03982",
+            "artikelb": "KISTE E2 SATTE HIN",
+            "colli": "",
+            "einh": "1",
+            "berMg": "1",
+            "ePreis": "4,0000",
+            "netto": "4,00",
+            "m": "2"
+        },
+        {
+            "artNr": "03982",
+            "artikelb": "KISTE E2 SATTE ZURUECK",
+            "colli": "",
+            "einh": "1",
+            "berMg": "-1",
+            "ePreis": "4,0000",
+            "netto": "-4,00",
+            "m": "2"
+        }
+    ],
+    "raw": " \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                   1  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n Lieferschein:774080/Lieferdatum:09.08.21 - 07/21    20/53/  \n 49662 MEERSALZ GROB MÜHLE 6X50G           6       1       6 16,2900    97,74 1       \n 49664 BUNTER PFEFFER MÜHLE 6X50G          6       1       6 15,1500    90,90 1       \n 03976 KISTE EUROPOOL HIN                          1       1  3,8600     3,86 2       \n 03976 KISTE EUROPOOL ZURUECK                      1      -1  3,8600    -3,86 2       \n 03982 KISTE E2 SATTE HIN                          1       1  4,0000     4,00 2       \n 03982 KISTE E2 SATTE ZURUECK                      1      -1  4,0000    -4,00 2       \n Summen Lfsch: NETTO 1:      188,64 NETTO 2:        0,00 =       188,64          \n Lieferschein:776412/Lieferdatum:02.08.21    27/63/  \n 07036 KRÄUTERKÄSE SCHEIB.20G GEF.35%1     1   1,000   1,000  8,6900     8,69 1       \n 19075 WG ORANGENSAFT 100% 1L PKG          3       8      24  0,8300    19,92 2       \n 19213 WG MULTIVITAMINSAFT 1L PET          1       6       6  0,9120     5,47 2       \n 26065 KIWI 10ER SCHALE                    1       1       1  4,4000     4,40 1       \n 26071 TRAUBEN BLAU KERNLOS 4,5KG              4,500   1,000  4,2800     4,28 1       \n davon Anbruch:    1,000                           \n 26072 TRAUBEN HELL KERNLOS 4,5KG              4,500   1,000  3,5800     3,58 1       \n davon Anbruch:    1,000                           \n 26383 WASSERMELONE SEEDLESS PER STÜCK     1       1       1  5,0200     5,02 1       \n 26400 MELONE HONIG 8ER                            8       2  2,1000     4,20 1       \n davon Anbruch:        2                           \n 30814 UNIVERSAL-SPÜLREINIGER 12KG         1       1       1 22,0900    22,09 2       \n 35011 BUKO FRISCHK.PORT.KRÄUTER 60% 2     1      48      48  0,1880     9,02 1       \n 35015 BUKO FRISCHK.PORT.NATUR 70% 20G     1      48      48  0,1880     9,02 1       \n ZWISCHENSUMME :               0,00      284,33           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                   2  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :       284,33          \n 36118 ETERNA BALSAMICO DUNKEL 2L KAN.     1       1       1  3,9700     3,97 1       \n 38244 BOLTES TAFELSENF 10KG EIMER         1  10,000  10,000  0,7650     7,65 1       \n 38805 VIO.CREAMY VEGANER FRISCHKÄSE 3     1   3,000   3,000  9,4500    28,35 1       \n 49388 OLIVENöL 0,5L FL.                   2       1       2  6,8500    13,70 1       \n 76308 TK HÄHNCHENBRUSTFIL.M.FL.Wü.140     1   3,000   3,000  5,8900    17,67 1       \n 03976 KISTE EUROPOOL HIN                          1       2  3,8600     7,72 2       \n 03982 KISTE E2 SATTE ZURUECK                      1      -2  4,0000    -8,00 2       \n Summen Lfsch: NETTO 1:      119,55 NETTO 2:       47,20 =       166,75          \n Lieferschein:779134/Lieferdatum:09.08.21    00/02/  \n BESTELLNUMMER: 2                        \n 04148 GASTRO PUDDING+SAHNE SCHOKO 125     4      24      96  0,2090    20,06 1       \n 04341 BAUER FR.JOGHURT W.ZUCK.1,8% 12     4      20      80  0,2030    16,24 1       \n 11014 PUTENBRUST KASSELER GESCHN.500G     1       1       1  4,9900     4,99 1       \n 11026 HINTERKOCHSCHINKEN 1A GESCHN.50     1       1       1  3,9500     3,95 1       \n 11163 MORTADELLA M.PAPRIKA GESCHN.500     1       1       1  2,6900     2,69 1       \n 11584 BIERSCHINKEN GESCHN.1000G PKG       1       1       1  6,4500     6,45 1       \n 26849 HIRTENSALAT FETA 1,5KG              3   1,500   4,500  5,6300    25,34 1       \n 32081 BEBO SOFT REFORM MARGARINE 2KG      1   2,000   2,000  1,9900     3,98 1       \n 37006 TOMATEN-PULPE PASSIERT 10KG BIB     1       1       1  8,2300     8,23 1       \n 37040 GEMÜSEMAIS 3/1 ATG 1840G            6       1       6  2,8400    17,04 1       \n 37070 KIDNEY BOHNEN 3100ML ATG 1900G      4       1       4  3,4900    13,96 1       \n ZWISCHENSUMME :               0,00      478,32           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                   3  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :       478,32          \n 37121 RIESENBOHNEN BIAN.D.SPAGNA 2650     2       1       2  2,6700     5,34 1       \n 37321 ANANAS STÜCKE 4/1 ATG 1840G         1       1       1  4,8500     4,85 1       \n 37720 CURRYPASTE ROT 400G                 1       1       1  1,9670     1,97 1       \n 37722 CURRYPASTE GELB 400G                1       1       1  1,9670     1,97 1       \n 37842 VALDIGRANO SPAGHETTI 5KG            3   5,000  15,000  1,2300    18,45 1       \n 39954 LORENZ ERDNÜSSE GERöST+GESALZ.1     1       1       1  5,2900     5,29 1       \n 43013 SCHMAND 24% 5KG EIMER               1   5,000   5,000  2,8900    14,45 1       \n 43022 SAHNE JOGHURT NATUR 10% 1KG         2   1,000   2,000  1,9300     3,86 1       \n 43093 FRISCHLI MILCHPUDDING SCHOKO 5K     1   5,000   5,000  1,9900     9,95 1       \n 75067 TK ZUCKERERBSENSCHOTEN 2X2,5KG      1   5,000   5,000  2,6300    13,15 1       \n 75104 TK FINGERMöHREN  14/18MM 4X2,5K     1  10,000  10,000  0,9180     9,18 1       \n 75262 TK BIO BRECHBOHNEN 4X2,5KG          1  10,000  10,000  2,5800    25,80 1       \n 75458 TK MARKERBSEN FEIN 4X2,5KG          1  10,000  10,000  1,1900    11,90 1       \n 76308 TK HÄHNCHENBRUSTFIL.M.FL.Wü.140     6   3,000  18,000  5,8900   106,02 1       \n 78105 TK BAGUETTE 290G                    1      32      32  0,5190    16,61 1       \n Summen Lfsch: NETTO 1:      371,72 NETTO 2:        0,00 =       371,72          \n Lieferschein:784501/Lieferdatum:23.08.21    21/B1/  \n 05469 ARLA GRILLKÄSE CHILI 34% 1,5KG      1   1,500   1,500  9,9500    14,93 1       \n 07042 BUNTE PAPRIKA SCHEIB.GEF.50% 50     6       1       6  4,7900    28,74 1       \n 07050 MAASDAMER SCHEIB.20G GEF.45% 1K     3   1,000   3,000  6,2700    18,81 1       \n 60161 WELLIE WEICHKÄSE SORTIM.CA.1,72     1   1,000   1,725 14,2980    24,66 1       \n ZWISCHENSUMME :               0,00      814,25           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                   4  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :       814,25          \n 03982 KISTE E2 SATTE HIN                          1       1  4,0000     4,00 2       \n 03982 KISTE E2 SATTE ZURUECK                      1      -1  4,0000    -4,00 2       \n Summen Lfsch: NETTO 1:       87,14 NETTO 2:        0,00 =        87,14          \n Lieferschein:784502/Lieferdatum:11.08.21    21/15/  \n 04030 M.PREMIUM MAGERQUARK 5KG EIMER      2   5,000  10,000  1,5300    15,30 1       \n 04112 FRANKENL.FIT FRUCHTJOGH.0,1% 12     6      20     120  0,2030    24,36 1       \n 04122 ZOTT GOURMET FRUCHTJOGH.125G 3,     6      20     120  0,2450    29,40 1       \n 05103 WEICHKÄSE BAVARIA BLU 150G          1       8       8  1,4700    11,76 1       \n 07038 TILSITER SCHEIBEN 20G GEF.30% 1     2   1,000   2,000  5,9500    11,90 1       \n 07039 MAASDAMER SCHEIB.20G GEF.30% 1K     2   1,000   2,000  6,8300    13,66 1       \n 07042 BUNTE PAPRIKA SCHEIB.GEF.50% 50     3       1       3  4,7900    14,37 1       \n 07056 A.GOUDA SCHEIBEN 20G GEF.48% 1K     2   1,000   2,000  5,2700    10,54 1       \n 07059 BIO TOFU NATUR 2KG                  2   2,000   4,000  3,0700    12,28 1       \n 11021 BIERSCHINKEN GESCHN.500G PKG        3       1       3  2,9500     8,85 1       \n 11025 SALAMI GESCHN.500G PKG              3       1       3  3,1300     9,39 1       \n 11038 FRÜHSTÜCKSSCHINKEN GESCHN.500G      3       1       3  4,5200    13,56 1       \n 11069 PFÄLZER LEBERWURST 800G             1       1       1  3,7500     3,75 1       \n 11163 MORTADELLA M.PAPRIKA GESCHN.500     2       1       2  2,6900     5,38 1       \n 11228 TRUTH.BR.KAL115 GERÄU.GESCHN.50     3       1       3  4,3500    13,05 1       \n 11571 FR.ZWIEBELMETTWURST 2X500G 1KG      1       1       1  6,3500     6,35 1       \n 37717 CHINESISCHE GLASNUDELN LANG 1KG     1      10      10  3,2890    32,89 1       \n ZWISCHENSUMME :               0,00     1051,04           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                   5  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      1051,04          \n 37853 FRENCH DRESSING 5L                  1   5,000   5,000  2,5900    12,95 1       \n 37855 JOGHURT DRESSING 5L                 1   5,000   5,000  3,0100    15,05 1       \n 39092 CHILISAUCE FÜR HUHN 650ML           2       1       2  2,4840     4,97 1       \n 43013 SCHMAND 24% 5KG EIMER               1   5,000   5,000  2,8900    14,45 1       \n 43034 KIRSCH JOGHURT 1,5% 5KG EIMER       1   5,000   5,000  1,4300     7,15 1       \n 43049 TUFFI NATURJOGHURT 1,5% 5KG EIM     2   5,000  10,000  0,9800     9,80 1       \n 43050 ITAL.HARTKÄSE GERIEBEN 32% 1KG      2   1,000   2,000  8,1900    16,38 1       \n 43076 FRISCHLI SAHNEPUDDING SCHOKO 5K     3   5,000  15,000  1,9500    29,25 1       \n 43187 MILRAM VANILLEPUDDING 3,1% 5KG      3   5,000  15,000  1,8500    27,75 1       \n 43197 MILRAM QUARK DESSERT BIRNE 5KG      1   5,000   5,000  2,3900    11,95 1       \n 73889 TK GNOCCHI GELB CA.8G  2X2,5KG      5   5,000  25,000  2,1900    54,75 1       \n 74026 TK MSC SEELACH.LOIN 160/180G 5K     2   5,000  10,000  6,5900    65,90 1       \n MSC-C-52651\n 75013 TK BLATTSPINAT PORTIONEN 1X10KG     1  10,000  10,000  0,9350     9,35 1       \n 75067 TK ZUCKERERBSENSCHOTEN 2X2,5KG      1   5,000   5,000  2,6300    13,15 1       \n 75111 TK MARKERBSEN MITTELFEIN 4X2,5K     1  10,000  10,000  1,2250    12,25 1       \n 75529 TK MINI RöSTI-TALER CA.10G          4   5,000  20,000  2,1650    43,30 1       \n 03982 KISTE E2 SATTE HIN                          1       1  4,0000     4,00 2       \n 03982 KISTE E2 SATTE ZURUECK                      1      -1  4,0000    -4,00 2       \n Summen Lfsch: NETTO 1:      585,19 NETTO 2:        0,00 =       585,19          \n ZWISCHENSUMME :               0,00     1399,44           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                   6  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      1399,44          \n Lieferschein:784883/Lieferdatum:11.08.21    15/53/  \n 19939 JOYCE AQUA 0,5L TETRA               3      12      36  0,2510     9,04 2       \n 19940 JOYCE EISTEE ZITRONE 0,5L TETRA     2      12      24  0,3390     8,14 2       \n 19941 JOYCE EISTEE PFIRSICH 0,5L TETR     2      12      24  0,3390     8,14 2       \n Summen Lfsch: NETTO 1:        0,00 NETTO 2:       25,32 =        25,32          \n Lieferschein:784885/Lieferdatum:16.08.21    15/02/  \n 19170 DORNFELDER TROCKEN 0,25L            2      24      48  1,8100    86,88 2       \n 19172 CHENET SAUVIGNON 0,25L              8       6      48  1,0900    52,32 2       \n 19177 MM SEKT EXTRA TROCKEN 0,2L/1ER      1      24      24  0,9500    22,80 2       \n 37852 BALSAMICO DRESSING 5L               1   5,000   5,000  3,0100    15,05 1       \n 37856 THOUSAND ISLAND-DRESSING 5L         1   5,000   5,000  3,0100    15,05 1       \n 03976 KISTE EUROPOOL ZURUECK                      1      -1  3,8600    -3,86 2       \n 03978 KISTE IFCO HIN                              1       1  1,5000     1,50 2       \n Summen Lfsch: NETTO 1:       30,10 NETTO 2:      159,64 =       189,74          \n Lieferschein:787131/Lieferdatum:16.08.21    02/05/  \n 05413 GOLDST.MOZZARELLA 45% 1KG BROT      2   1,000   2,000  4,5900     9,18 1       \n 07059 BIO TOFU NATUR 2KG                  2   2,000   4,000  3,0700    12,28 1       \n 11501 PULLED PORK 2X2,275KG               6   4,550  27,300  7,4500   203,39 1       \n 19929 KOKOSNUSSMILCH ’MAE PLOY’1L TET    12       1      12  2,2900    27,48 1       \n ZWISCHENSUMME :               0,00     1866,83           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                   7  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      1866,83          \n 32063 RAMA CREMEFINE Z.KOCHEN 15% 1L      1      12      12  1,8700    22,44 1       \n 37985 MAISSTÄRKE 10KG                     1  10,000  10,000  1,1100    11,10 1       \n 69363 GAZI HIRTENKÄSE CLASSIC 1,6KG V     2   1,600   3,200  4,8700    15,58 1       \n 73889 TK GNOCCHI GELB CA.8G  2X2,5KG      4   5,000  20,000  2,1900    43,80 1       \n 75058 TK BROCCOLI 40/60 4X2,5KG           3  10,000  30,000  1,2390    37,17 1       \n 75087 TK ARDO ZWIEBELN GEWÜ.10X10 2,5     1  10,000  10,000  1,8000    18,00 1       \n 75111 TK MARKERBSEN MITTELFEIN 4X2,5K     1  10,000  10,000  1,2250    12,25 1       \n 78636 TK FRANZBRöTCHEN 72X120G            1      72      72  0,5070    36,50 1       \n Summen Lfsch: NETTO 1:      449,17 NETTO 2:        0,00 =       449,17          \n Lieferschein:789514/Lieferdatum:16.08.21    53/  /  \n ===> Gs zu Ls787131/16.08.2021  \n 11501 PULLED PORK 2X2,275KG              -1   4,550  -4,550  7,4500   -33,90 1       \n Summen Lfsch: NETTO 1:      -33,90 NETTO 2:        0,00 =       -33,90          \n Lieferschein:790729/Lieferdatum:18.08.21    26/63/  \n 05413 GOLDST.MOZZARELLA 45% 1KG BROT      1   1,000   1,000  4,5900     4,59 1       \n 05484 SALAKIS SCHAFSKÄSE 48% CA.2KG       3   1,000   5,551  8,8490    49,12 1       \n 19929 KOKOSNUSSMILCH ’MAE PLOY’1L TET     6       1       6  2,2900    13,74 1       \n 36693 FRISCHEIWAFFELN 25G                 1      72      72  0,1450    10,44 1       \n 37040 GEMÜSEMAIS 3/1 ATG 1840G            6       1       6  2,8400    17,04 1       \n 37095 SAUERKRAUT 10/1 ATG 9700G           2       1       2  8,6300    17,26 1       \n ZWISCHENSUMME :               0,00     2141,96           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                   8  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      2141,96          \n 37942 SPAGHETTI 5KG                       2   5,000  10,000  1,1100    11,10 1       \n 38576 COUSCOUS GRIESS 5KG BTL.            1   5,000   5,000  1,9200     9,60 1       \n 39741 KINDER COUNTRY RIEGEL 23,5G         1      40      40  0,2310     9,24 1       \n 40001 KNOPPERS 25G                        3      15      45  0,2340    10,53 1       \n 40526 SOJA SCHNETZEL 6KG                  1   6,000   6,000  5,6900    34,14 1       \n 73802 TK SCHUPFNUDELN SCHWÄBISCH CA.1     2   5,000  10,000  2,1300    21,30 1       \n 75020 TK RATATOUILLE 4X2,5KG              1  10,000  10,000  0,9590     9,59 1       \n 75066 TK CHINAGEMÜSE 4X2,5KG              1  10,000  10,000  1,3900    13,90 1       \n 75067 TK ZUCKERERBSENSCHOTEN 2X2,5KG      1   5,000   5,000  2,6300    13,15 1       \n 75111 TK MARKERBSEN MITTELFEIN 4X2,5K     1  10,000  10,000  1,2250    12,25 1       \n 75529 TK MINI RöSTI-TALER CA.10G          2   5,000  10,000  2,1650    21,65 1       \n 76308 TK HÄHNCHENBRUSTFIL.M.FL.Wü.140     7   3,000  21,000  5,8900   123,69 1       \n 77535 TK HASELNUSSKRANZ 1100G             1       1       1  9,3840     9,38 1       \n 77536 TK MARMORKRANZ 1100G                1       1       1  7,6740     7,67 1       \n 77537 TK ZITRONENKRANZ 1100G              1       1       1  7,6740     7,67 1       \n Summen Lfsch: NETTO 1:      427,05 NETTO 2:        0,00 =       427,05          \n Lieferschein:790874/Lieferdatum:25.08.21    21/22/  \n ===> tel. Fr. Siggelkow 17.08.21\n 73802 TK SCHUPFNUDELN SCHWÄBISCH CA.1     3   5,000  15,000  2,1300    31,95 1       \n 74026 TK MSC SEELACH.LOIN 160/180G 5K     2   5,000  10,000  6,5900    65,90 1       \n MSC-C-52651\n ZWISCHENSUMME :               0,00     2554,67           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                   9  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      2554,67          \n 75069 TK BRUNOISE-MISCHUNG 4X2,5KG        1  10,000  10,000  0,8630     8,63 1       \n 75104 TK FINGERMöHREN  14/18MM 4X2,5K     2  10,000  20,000  0,9180    18,36 1       \n 75648 TK KARTOF-WEDGES M.SCHALE 4X2,5     2  10,000  20,000  1,3250    26,50 1       \n 78435 TK MINI LAUGENGEBÄCK 3FACH 180S     1     180     180  0,1890    34,02 1       \n 03976 KISTE EUROPOOL HIN                          1       1  3,8600     3,86 2       \n 03976 KISTE EUROPOOL ZURUECK                      1      -1  3,8600    -3,86 2       \n Summen Lfsch: NETTO 1:      185,36 NETTO 2:        0,00 =       185,36          \n Lieferschein:790875/Lieferdatum:18.08.21    21/56/  \n 78478 TK LAUGENBREZEL M.SCHNITT 84X10     1      84      84  0,1630    13,69 1       \n Summen Lfsch: NETTO 1:       13,69 NETTO 2:        0,00 =        13,69          \n Lieferschein:791003/Lieferdatum:18.08.21    05/02/  \n 39023 FK MSC BRATHERINGE 2500G/1750G      1       1       1 15,5900    15,59 1       \n MSC-C-52651\n 39111 LP HERINGSSALAT ROT 1KG             1   1,000   1,000  4,6700     4,67 1       \n 39114 LP HERINGSSALAT WEIß 1KG            1   1,000   1,000  4,8300     4,83 1       \n Summen Lfsch: NETTO 1:       25,09 NETTO 2:        0,00 =        25,09          \n Lieferschein:794384/Lieferdatum:23.08.21    05/B1/  \n 00062 EIFIX VOLLEI BODENHALTUNG 1KG P     1      12      12  2,7800    33,36 1       \n 00068 EIER BODENHALT’M’WEIß LOSE 360E     1     360     360  0,1040    37,44 1       \n ZWISCHENSUMME :               0,00     2751,76           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                  10  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      2751,76          \n 03001 H-MILCH 3,5% 0,5L PKG               1      12      12  0,5490     6,59 1       \n 03009 FRISCHLI H-KAKAO 0,5L PKG.          1      12      12  0,4970     5,96 1       \n 04570 FRISCHLI MILCHPUDDING SCHOKO 85     5      20     100  0,1690    16,90 1       \n 05439 FRANZ.TORTENBRIE 50% CA.3KG         1   1,000   3,326  5,0900    16,93 1       \n 05456 BRESSO KRÄUTERTOPF 62% 1,5KG        1   1,500   1,500  9,1900    13,79 1       \n 32025 SIEDEFETT HALBFLÜSSIG 10KG          3  10,000  30,000  1,4990    44,97 1       \n 32032 RAPSöL 10L PET-FLASCHE              3       1       3 12,7900    38,37 1       \n 37921 KOCHS SAHNEMEERRETTICH SQUEE.485G           6       1  2,2500     2,25 1       \n davon Anbruch:        1                           \n 38709 RUF SCHOKO-STREUSEL 1KG             1   1,000   1,000  6,5900     6,59 1       \n 38814 FRISCHKäSE NATUR 20%  1,5KG         1   1,500   1,500  4,5900     6,89 1       \n 39011 MSC HERINGSF.MATJESART-öL3/1ATG     1       1       1 16,1040    16,10 1       \n MSC-C-52651\n 43042 GASTRO JOGHURT ERDBEER 3,5% 5KG     1   5,000   5,000  1,5500     7,75 1       \n 43046 MAGERQUARK 5KG EIMER ’CLASSIK’      1   5,000   5,000  1,5000     7,50 1       \n 43048 NATURJOGHURT 3,5% 5KG EIMER         1   5,000   5,000  1,1400     5,70 1       \n 43076 FRISCHLI SAHNEPUDDING SCHOKO 5K     2   5,000  10,000  1,9500    19,50 1       \n 43078 FRISCHLI GRIESSPUDDING 5KG          2   5,000  10,000  1,9500    19,50 1       \n 43088 FRISCHL.NUSS-NOUG.PUDD.M.SAHNE5     2   5,000  10,000  1,9500    19,50 1       \n 43184 GA.FRUCHTQUARK APRIKOSE 20% 5KG     1   5,000   5,000  2,2100    11,05 1       \n 43187 MILRAM VANILLEPUDDING 3,1% 5KG      2   5,000  10,000  1,8500    18,50 1       \n 48560 TOMATEN GEWÜRZSALZ 650G BOX         1       1       1  8,9500     8,95 1       \n ZWISCHENSUMME :               0,00     3045,05           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                  11  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      3045,05          \n 49546 SMOKAL RAUCHAROMA 1KG BTL.          1       1       1  9,5000     9,50 1       \n 74997 TK PAPRIKAWÜRFEL R/G/G 4X2,5KG      1  10,000  10,000  1,6800    16,80 1       \n 75055 TK BRECHBOHNEN 3-4CM 1X10KG         1  10,000  10,000  0,9690     9,69 1       \n 75538 TK SPICY JACKET WEDGES 4X2,5KG      3  10,000  30,000  1,2590    37,77 1       \n Summen Lfsch: NETTO 1:      437,85 NETTO 2:        0,00 =       437,85          \n Lieferschein:794455/Lieferdatum:25.08.21    05/22/  \n 04363 MÜLLER FRUCTIV SORTIERUNG 2 440     1      12      12  0,6460     7,75 2       \n Summen Lfsch: NETTO 1:        0,00 NETTO 2:        7,75 =         7,75          \n Lieferschein:796180/Lieferdatum:23.08.21    05/  /  \n ===> GS LS794384 v.23.08.21     \n 38814 FRISCHKäSE NATUR 20%  1,5KG        -1   1,500  -1,500  4,5900    -6,89 1       \n Summen Lfsch: NETTO 1:       -6,89 NETTO 2:        0,00 =        -6,89          \n Lieferschein:796181/Lieferdatum:23.08.21    05/05/  \n ===> GS LS 784501 v.23.08.21    \n 60161 WELLIE WEICHKÄSE SORTIM.CA.1,72    -1   1,000  -1,725 14,2980   -24,66 1       \n Summen Lfsch: NETTO 1:      -24,66 NETTO 2:        0,00 =       -24,66          \n ZWISCHENSUMME :               0,00     3095,01           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                  12  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      3095,01          \n Lieferschein:796796/Lieferdatum:25.08.21    56/05/  \n 07059 BIO TOFU NATUR 2KG                  2   2,000   4,000  3,0700    12,28 1       \n 19073 WG MULTIVITAMIN 12 FRUCHT 50% 1     2       8      16  0,7490    11,98 2       \n 19075 WG ORANGENSAFT 100% 1L PKG          1       8       8  0,8300     6,64 2       \n 26850 ROTKRAUTSALAT CS 3KG                1   3,000   3,000  2,3000     6,90 1       \n 26994 KAROTTENSALAT CS 3KG                1   3,000   3,000  1,9900     5,97 1       \n 37060 GEWÜRZGURKEN 55/60 10/1 ATG 560     2       1       2  6,8900    13,78 1       \n 37951 PENNE RIGATE GROß 5KG               2   5,000  10,000  1,1100    11,10 1       \n 38024 HEINZ BARBECUESAUCE 11,5KG EIME     1       1       1 28,2900    28,29 1       \n 38576 COUSCOUS GRIESS 5KG BTL.            1   5,000   5,000  1,9200     9,60 1       \n 38814 FRISCHKäSE NATUR 20%  1,5KG         1   1,500   1,500  4,5900     6,89 1       \n 39155 LP KRAUTSALAT O.K.5KG               1   5,000   5,000  1,8700     9,35 1       \n 48697 WACHOLDERBEEREN GANZ GETR. 1KG      1       1       1 10,5900    10,59 1       \n 69363 GAZI HIRTENKÄSE CLASSIC 1,6KG V     1   1,600   1,600  4,8700     7,79 1       \n Summen Lfsch: NETTO 1:      122,54 NETTO 2:       18,62 =       141,16          \n Lieferschein:799167/Lieferdatum:27.08.21    26/22/  \n 05411 GALBANI MOZZARELLA 48% 1KG BROT     4       1       4  7,5500    30,20 1       \n 05484 SALAKIS SCHAFSKÄSE 48% CA.2KG       2   1,000   3,774  8,8490    33,40 1       \n 07059 BIO TOFU NATUR 2KG                  2   2,000   4,000  3,0700    12,28 1       \n 37943 FUSILLI-SPIRALEN 5KG                4   5,000  20,000  1,1100    22,20 1       \n ZWISCHENSUMME :               0,00     3334,25           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                  13  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      3334,25          \n 38205 SALATMAYONNAISE 50% 10KG            1  10,000  10,000  1,4500    14,50 1       \n 38220 TOMATENKETCHUP 10KG                 1  10,000  10,000  1,2600    12,60 1       \n 38529 JODSALZ 10KG                        1  10,000  10,000  0,3100     3,10 1       \n 38550 ZUCKER 1KG                          1  10,000  10,000  0,7400     7,40 1       \n 38950 MM.PARBOILED-LANGKORNREIS 10KG      1  10,000  10,000  1,4800    14,80 1       \n 48636 KRÄUTER DER PROVENCE GETR. 1KG      1       1       1  8,6900     8,69 1       \n 49243 CURRY INDIAN 550G DS.               1       1       1  5,0800     5,08 1       \n 73802 TK SCHUPFNUDELN SCHWÄBISCH CA.1     3   5,000  15,000  2,1300    31,95 1       \n 75087 TK ARDO ZWIEBELN GEWÜ.10X10 2,5     1  10,000  10,000  1,8000    18,00 1       \n 75104 TK FINGERMöHREN  14/18MM 4X2,5K     2  10,000  20,000  0,9180    18,36 1       \n 76418 TK HÄHN.CORDON BLEU VORGEB. 150     4   4,500  18,000  6,6900   120,42 1       \n Summen Lfsch: NETTO 1:      352,98 NETTO 2:        0,00 =       352,98          \n Lieferschein:800009/Lieferdatum:30.08.21    26/26/  \n 07082 GOUDA SCHEIBEN 20G GEF.48% 1KG      4   1,000   4,000  5,7700    23,08 1       \n 38525 FRISCHE POMMES 10MM 2X5KG           3  10,000  30,000  1,0290    30,87 1       \n 38801 EXQUISA KRÄUTER 1,5KG TOPF 70%      1   1,500   1,500  5,6900     8,54 1       \n 38814 FRISCHKäSE NATUR 20%  1,5KG         1   1,500   1,500  4,5900     6,89 1       \n 40004 ÜLTJE STUDENTENFUTTER ORIG.50G      2      20      40  0,5200    20,80 1       \n 44598 ALPRO SOJA DRINK ORIGINAL 1L               12       2  1,1390     2,28 2       \n davon Anbruch:        2                           \n 73704 TK PFANNKUCHEN OHNE FÜLLUNG 70G     1     100     100  0,1550    15,50 1       \n ZWISCHENSUMME :               0,00     3697,11           \n \n \n \n \n L&D GMBH & CO.KG 9030                   \n 30116101                                \n LISE-MEITNER-STR.6                      \n 53501 GRAFSCHAFT\nR E C H N U N G\n \n \n \n \n LIEFERANSCHRIFT:                                   BLATT RE.-NR.   DATUM  KD.-NR.\n DRV BILDUNGSZENTRUM                                  14  666856  31.08.21  14052        \n MA-REST 30116101                                                                        \n AHRENSBöKER STR.51/REINFELD                                                             \n \n KRED.-NR.:         IHRE BETRIEBSNR.:                                                    \n TOUR:10 TOR:9000   BETRIFFT:                                                            \n ART-NR ARTIKELBEZEICHNUNG                COLLI EINH. BER.MG. E-PREIS  NETTO EUR M\n UEBERTRAG :      3697,11          \n 03982 KISTE E2 SATTE HIN                          1       1  4,0000     4,00 2       \n 03982 KISTE E2 SATTE ZURUECK                      1      -1  4,0000    -4,00 2       \n Summen Lfsch: NETTO 1:      105,68 NETTO 2:        2,28 =       107,96          \n NETTO 1    MWST 7%   NETTO 2   MWST 19%  NETTO-GES    MWST-GES    RE.-BETRAG          \n 3436,30    240,54     260,81     49,55     3697,11      290,09       3987,20          \n Den Rechnungsbetrag werden wir am 21.09.2021 per  SEPA-Lastschrift  einziehen.\n Unsere Gläubiger-ID lautet DE12ZZZ00000373688,die Mandatsreferenz lautet 414052."
+}
