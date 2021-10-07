@@ -37,6 +37,9 @@ const httpTrigger: AzureFunction = async function (
   if (parts[0]?.type) console.log(`Content type = ${parts[0]?.type}`);
   if (parts[0]?.data?.length) console.log(`Size = ${parts[0]?.data?.length}`);
 
+  // Passed to Storage
+  context.bindings.storage = parts[0]?.data;
+
   const buffer = parts[0]?.data;
   const invoice = new Invoice();
 
@@ -74,38 +77,40 @@ const httpTrigger: AzureFunction = async function (
   ];
 
   const zip = new AdmZip(buffer);
-  const spath = "./egv/unzip/"
-  zip.extractAllTo(/*target path*/ spath, /*overwrite*/ true);
-  zip.writeZip('./egv/new.zip')
+  // const spath = "./egv/unzip/"
+  // zip.extractAllTo(/*target path*/ spath, /*overwrite*/ true);
+  // zip.writeZip('./egv/new.zip')
   var document
 
-  var files = fs.readdirSync(spath);
+  // var files = fs.readdirSync(spath);
 
-  for (var i in files) {
-    if (path.extname(files[i]) === ".pdf") {
-      const fp = spath + files[i]
-      document = fs.readFileSync(fp)
-    }
-  }
-
-  // zip.getEntries().forEach(function (entry) {
-  //   if (entry.entryName.toLowerCase().endsWith('.pdf')) {
-  //     const test = 123;
-  //     document = zip.readFile(entry)
+  // for (var i in files) {
+  //   if (path.extname(files[i]) === ".pdf") {
+  //     const fp = spath + files[i]
+  //     document = fs.readFileSync(fp)
   //   }
-  // })
+  // }
+
+  zip.getEntries().forEach(function (entry) {
+    if (entry.entryName.toLowerCase().endsWith('.pdf')) {
+      const test = 123;
+      document = zip.readFile(entry)
+    }
+  })
 
   const result = await textmeta.extractFromPDFBuffer(document, rules);
-  invoice.pdftext = result.text;
-  const egv = new EgvInvoiceHandler();
-  const res = egv.processInvoice(invoice);
-  const responseMessage = JSON.stringify(res);
+  // invoice.pdftext = result.text;
+  // const egv = new EgvInvoiceHandler();
+  // const res = egv.processInvoice(invoice);
+  const responseMessage = JSON.stringify(result);
+  // const responseMessage = 'saved file to blob, vielleicht' //JSON.stringify(res);
 
-  fs.rmdirSync(spath, { recursive: true })
+  // fs.rmdirSync(spath, { recursive: true })
 
   context.res = {
     // status: 200, /* Defaults to 200 */
-    body: responseMessage
+    body:  responseMessage
   }
+
 }
 export default httpTrigger;

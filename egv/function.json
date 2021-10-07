@@ -15,6 +15,13 @@
       "type": "http",
       "direction": "out",
       "name": "res"
+    },
+    {
+      "name": "storage",
+      "type": "blob",
+      "path": "{username}/{filename}",
+      "direction": "out",
+      "connection": "AzureWebJobsStorage"
     }
   ],
   "scriptFile": "../dist/egv/index.js"

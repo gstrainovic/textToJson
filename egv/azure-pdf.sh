@@ -1,1 +1,0 @@
-curl -X POST  -F 'filename=@666856.pdf' 'https://svisio-dev.azurewebsites.net/api/egv' --verbose

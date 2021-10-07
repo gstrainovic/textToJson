@@ -1,1 +1,1 @@
-curl -X POST  -F 'filename=@test.zip' 'http://localhost:7071/api/egv' --verbose
+curl -X POST  -F 'filename=@test.zip' 'http://localhost:7071/api/egv?filename=new.zip&username=zips' --verbose

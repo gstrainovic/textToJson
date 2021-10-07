@@ -1,1 +1,0 @@
-curl -X POST  -F 'filename=@666856.pdf' 'http://localhost:7071/api/egv' --verbose

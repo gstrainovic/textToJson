@@ -1,0 +1,1 @@
+curl -X POST  -F 'filename=@test.zip' 'https://gstrainovic.azurewebsites.net/api/egv?filename=new.zip&username=zips' --verbose
