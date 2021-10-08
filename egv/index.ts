@@ -8,6 +8,8 @@ import * as textmeta from "textmeta";
 import * as path from 'path';
 import * as fs from 'fs'
 
+
+//
 const httpTrigger: AzureFunction = async function (
   context: Context,
   req: HttpRequest
@@ -99,10 +101,10 @@ const httpTrigger: AzureFunction = async function (
   })
 
   const result = await textmeta.extractFromPDFBuffer(document, rules);
-  // invoice.pdftext = result.text;
-  // const egv = new EgvInvoiceHandler();
-  // const res = egv.processInvoice(invoice);
-  const responseMessage = JSON.stringify(result);
+  invoice.pdftext = result.text;
+  const egv = new EgvInvoiceHandler();
+  const res = egv.processInvoice(invoice);
+  const responseMessage = JSON.stringify(res);
   // const responseMessage = 'saved file to blob, vielleicht' //JSON.stringify(res);
 
   // fs.rmdirSync(spath, { recursive: true })
